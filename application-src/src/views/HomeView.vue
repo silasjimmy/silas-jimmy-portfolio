@@ -3,6 +3,7 @@ import { Chip } from 'primevue';
 </script>
 
 <template>
-  <h1>Hello!</h1>
+  <h1>Hello there! My name is Silas Jimmy</h1>
+  
   <Chip label="Thriller" removable />
 </template>
