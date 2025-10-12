@@ -1,5 +1,5 @@
 <template>
-  <div class="intro-wrapper">
+  <div>
     <Avatar
       image="https://firebasestorage.googleapis.com/v0/b/silasjimmydev.firebasestorage.app/o/images%2Favatars%2Fsilas-jimmy.jpg?alt=media&token=6b01579c-42ce-4520-b8bb-132787b86a65"
       size="xlarge"
@@ -26,15 +26,3 @@
 <script setup lang="ts">
 import { Avatar } from 'primevue'
 </script>
-
-<style scoped>
-.intro-wrapper {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  text-align: center;
-  margin: 0 auto;
-}
-</style>

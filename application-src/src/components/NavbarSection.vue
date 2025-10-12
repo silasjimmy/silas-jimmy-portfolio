@@ -1,5 +1,5 @@
 <template>
-  <Menubar :model="menuItems" style="border-radius: 3rem" />
+  <Menubar :model="menuItems" />
 </template>
 
 <script setup lang="ts">

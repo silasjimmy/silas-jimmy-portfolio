@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import NavbarSection from '@/components/NavbarSection.vue';
 import IntroSection from '@/components/IntroSection.vue';
-import ProjectSection from '@/components/ProjectSection.vue';
+import AboutSection from '@/components/AboutSection.vue';
 import WorkSection from '@/components/WorkSection.vue';
 import SkillSection from '@/components/SkillSection.vue';
 import ArticleSection from '@/components/ArticleSection.vue';
@@ -10,12 +10,12 @@ import FooterSection from '@/components/FooterSection.vue';
 </script>
 
 <template>
-  <div class="custom-container">
+  <div>
     <navbar-section></navbar-section>
 
     <intro-section></intro-section>
 
-    <project-section></project-section>
+    <about-section></about-section>
 
     <work-section></work-section>
 
@@ -28,12 +28,3 @@ import FooterSection from '@/components/FooterSection.vue';
     <footer-section></footer-section>
   </div>
 </template>
-
-<style scoped>
-.custom-container {
-  border-left:  1px solid white;
-  border-right: 1px solid white;
-  width: 75%;
-  margin: 0 auto;
-}
-</style>
