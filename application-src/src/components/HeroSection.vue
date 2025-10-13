@@ -28,5 +28,5 @@
 </template>
 
 <script setup lang="ts">
-import { Avatar } from 'primevue'
+import Avatar from 'primevue/avatar'
 </script>
