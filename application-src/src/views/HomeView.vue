@@ -10,7 +10,7 @@ import FooterSection from '@/components/FooterSection.vue';
 </script>
 
 <template>
-  <div>
+  <div class="border-l border-r w-3/4 m-auto">
     <navbar-section></navbar-section>
 
     <hero-section></hero-section>
