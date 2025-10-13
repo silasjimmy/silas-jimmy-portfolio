@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import NavbarSection from '@/components/NavbarSection.vue';
-import IntroSection from '@/components/IntroSection.vue';
+import HeroSection from '@/components/HeroSection.vue';
 import AboutSection from '@/components/AboutSection.vue';
 import WorkSection from '@/components/WorkSection.vue';
 import SkillSection from '@/components/SkillSection.vue';
@@ -13,7 +13,7 @@ import FooterSection from '@/components/FooterSection.vue';
   <div>
     <navbar-section></navbar-section>
 
-    <intro-section></intro-section>
+    <hero-section></hero-section>
 
     <about-section></about-section>
 
