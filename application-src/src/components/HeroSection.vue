@@ -11,7 +11,7 @@
         Hello, I'm Silas Jimmy Solutions Architect
       </h1>
 
-      <p class="text-center text-md max-w-2xl text-muted-color text-balance mx-auto">
+      <p class="text-center text-sm max-w-2xl text-muted-color text-balance mx-auto">
         I build software solutions that blend creativity with user needs.
       </p>
 
