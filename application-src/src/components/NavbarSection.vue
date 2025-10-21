@@ -1,11 +1,12 @@
 <template>
-  <div class="border">
-    <h1>Navbar section</h1>
-  </div>
+  <header class="border">
+    <Menubar :model="navItems" class="fixed top-2 rounded-4xl"></Menubar>
+  </header>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import Menubar from 'primevue/menubar';
 
 const navItems = ref([
   {
