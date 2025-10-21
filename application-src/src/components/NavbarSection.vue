@@ -1,12 +1,12 @@
 <template>
   <Menubar
     :model="navItems"
-    class="rounded-4xl fixed top-2 text-sm font-light left-1/2 transform -translate-x-1/2"
+    class="rounded-4xl fixed top-2 text-sm font-light left-1/2 transform -translate-x-1/2 z-999"
   >
     <template #item="{ item }">
       <router-link v-if="item.route" :to="item.route">{{ item.label }}</router-link>
 
-      <i v-else class="pi pi-check">i</i>
+      <i v-else class="pi pi-moon text-sm"></i>
     </template>
   </Menubar>
 </template>

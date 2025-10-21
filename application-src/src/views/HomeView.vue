@@ -1,5 +1,5 @@
 <template>
-  <main class="w-1/2 mx-auto border-x">
+  <main>
     <navbar-section></navbar-section>
     
     <hero-section></hero-section>
