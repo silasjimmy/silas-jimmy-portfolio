@@ -2,17 +2,25 @@
   <main class="lg:border-x lg:w-1/2 mx-auto">
     <navbar-section></navbar-section>
 
-    <hero-section></hero-section>
-
-    <div class="grid grid-cols-2">
-      <about-me-section></about-me-section>
-
-      <work-experience-section></work-experience-section>
+    <div class="mb-[100px]">
+      <hero-section></hero-section>
     </div>
 
-    <article-section></article-section>
+    <div class="mb-[100px]">
+      <div class="grid grid-cols-2 gap-5">
+        <about-me-section></about-me-section>
 
-    <faq-section></faq-section>
+        <work-experience-section></work-experience-section>
+      </div>
+    </div>
+
+    <div class="mb-[100px]">
+      <article-section></article-section>
+    </div>
+
+    <div class="mb-[100px]">
+      <faq-section></faq-section>
+    </div>
 
     <footer-section></footer-section>
   </main>
