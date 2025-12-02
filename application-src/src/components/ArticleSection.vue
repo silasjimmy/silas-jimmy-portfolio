@@ -1,5 +1,5 @@
 <template>
-  <div>Footer</div>
+  <div>Recent srticles</div>
 </template>
 
 <script setup lang="ts"></script>

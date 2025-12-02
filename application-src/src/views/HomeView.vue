@@ -1,30 +1,29 @@
 <template>
   <main>
     <navbar-section></navbar-section>
-    
+
     <hero-section></hero-section>
 
-    <about-section></about-section>
+    <div class="grid grid-cols-2">
+      <about-me-section></about-me-section>
 
-    <skills-section></skills-section>
+      <work-experience-section></work-experience-section>
+    </div>
 
-    <experience-section></experience-section>
+    <article-section></article-section>
 
-    <blog-section></blog-section>
-
-    <contact-section></contact-section>
+    <faq-section></faq-section>
 
     <footer-section></footer-section>
   </main>
 </template>
 
 <script setup lang="ts">
-import NavbarSection from '@/components/NavbarSection.vue';
-import HeroSection from '@/components/HeroSection.vue';
-import AboutSection from '@/components/AboutSection.vue';
-import SkillsSection from '@/components/SkillsSection.vue';
-import ExperienceSection from '@/components/ExperienceSection.vue';
-import BlogSection from '@/components/BlogSection.vue';
-import ContactSection from '@/components/ContactSection.vue';
-import FooterSection from '@/components/FooterSection.vue';
+import NavbarSection from '@/components/NavbarSection.vue'
+import HeroSection from '@/components/HeroSection.vue'
+import AboutMeSection from '@/components/AboutMeSection.vue'
+import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
+import ArticleSection from '@/components/ArticleSection.vue'
+import FaqSection from '@/components/FaqSection.vue'
+import FooterSection from '@/components/FooterSection.vue'
 </script>

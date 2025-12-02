@@ -1,47 +1,7 @@
 <template>
-  <Menubar
-    :model="navItems"
-    class="rounded-4xl fixed top-2 text-sm font-light left-1/2 transform -translate-x-1/2 z-999"
-  >
-    <template #item="{ item }">
-      <router-link v-if="item.route" :to="item.route">{{ item.label }}</router-link>
-
-      <i v-else class="pi pi-moon text-sm"></i>
-    </template>
-  </Menubar>
+  <nav>Navbar</nav>
 </template>
 
-<script setup lang="ts">
-import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
-import Menubar from 'primevue/menubar'
+<script setup lang="ts"></script>
 
-const navItems = ref([
-  {
-    label: 'Home',
-    route: '/',
-  },
-  {
-    label: 'About Me',
-    route: '/about-me',
-  },
-  {
-    label: 'Projects',
-    route: '/projects',
-  },
-  {
-    label: 'Volunteer Work',
-    route: 'volunteer-work',
-  },
-  {
-    label: 'Art',
-    route: '/art',
-  },
-  {
-    label: 'd',
-    command: () => {
-      document.documentElement.classList.toggle('app-dark-mode')
-    }
-  },
-])
-</script>
+<style scoped></style>
