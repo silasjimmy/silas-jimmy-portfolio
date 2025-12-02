@@ -18,7 +18,7 @@ app.use(PrimeVue, {
   theme: {
     preset: appPreset, // Use a custom preset
     options: {
-      // darkModeSelector: '.app-dark-mode', // Manually toggle app theme
+      darkModeSelector: 'light', // '.app-dark-mode', // Manually toggle app theme
       cssLayer: {
         name: 'primevue',
         order: 'theme, base, primevue',

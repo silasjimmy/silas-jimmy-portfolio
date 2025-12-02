@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="lg:border-x lg:w-1/2 mx-auto">
     <navbar-section></navbar-section>
 
     <hero-section></hero-section>

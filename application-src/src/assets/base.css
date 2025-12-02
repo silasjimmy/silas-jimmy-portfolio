@@ -5,3 +5,11 @@
 @theme {
   --font-sans: 'Public Sans', sans-serif; /* Override default tailwindcss font family */
 }
+
+:root {
+  /* Navbar */
+  --navbar-height: 64px;
+
+  /* Border Radius */
+  --border-radius-large: 36px
+}
