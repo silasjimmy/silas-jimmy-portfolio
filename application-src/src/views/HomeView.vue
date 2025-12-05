@@ -1,13 +1,13 @@
 <template>
-  <main class="lg:border-x lg:w-1/2 mx-auto">
+  <main class="lg:border-x lg:w-2/3 mx-auto">
     <navbar-section></navbar-section>
 
     <div class="mb-[100px]">
       <hero-section></hero-section>
     </div>
 
-    <div class="mb-[100px]">
-      <div class="grid grid-cols-2 gap-5">
+    <div class="mb-[100px] px-[30px]">
+      <div class="grid grid-cols-2 gap-[30px]">
         <about-me-section></about-me-section>
 
         <work-experience-section></work-experience-section>
