@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="bg-gray-200 shadow-md fixed top-5 left-[50%] translate-x-[-50%] rounded-[36px] px-[26px] py-4 flex items-center gap-6"
+    class="bg-gray-100 shadow-md fixed top-5 left-[50%] translate-x-[-50%] rounded-[36px] px-[26px] py-4 flex items-center gap-6"
   >
     <a class="text-sm" href="#">Home</a>
     <a class="text-sm" href="#">About Me</a>

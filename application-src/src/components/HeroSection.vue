@@ -34,8 +34,13 @@
       </div>
     </div>
 
-    <div class="hero-carousel">
-      <div class="bg-gray-100 h-[200px]">carousel</div>
+    <div class="h-[200px] py-2 flex overflow-hidden gap-16">
+      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-4"></div>
+      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg -rotate-2"></div>
+      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-2"></div>
+      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-4"></div>
+      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg -rotate-2"></div>
+      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-2"></div>
     </div>
   </div>
 </template>
