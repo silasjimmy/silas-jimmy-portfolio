@@ -22,8 +22,8 @@
       <testimonial-section></testimonial-section>
     </div>
 
-    <div class="mb-[100px]">
-      <faq-section></faq-section>
+    <div class="mb-[100px] px-[30px]">
+      <get-in-touch-section></get-in-touch-section>
     </div>
 
     <footer-section></footer-section>
@@ -37,6 +37,6 @@ import AboutMeSection from '@/components/AboutMeSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ArticleSection from '@/components/ArticleSection.vue'
 import TestimonialSection from '@/components/TestimonialSection.vue'
-import FaqSection from '@/components/FaqSection.vue'
+import GetInTouchSection from '@/components/GetInTouchSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
 </script>
