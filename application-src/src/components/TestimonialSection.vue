@@ -2,11 +2,11 @@
   <div class="bg-gray-100 p-[30px]">
     <Carousel :value="testimonials" :showNavigators="false">
       <template #item="slotProps">
-        <div class="flex flex-col gap-[30px] px-[50px] py-[30px]">
-          <div class="flex gap-6">
+        <div class="flex flex-col gap-4 px-[50px] py-[30px]">
+          <div class="flex gap-4">
             <Avatar shape="circle" size="large"></Avatar>
 
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
               <h3 class="text-lg leading-none font-medium">{{ slotProps.data.fullName }}</h3>
 
               <span class="text-sm leading-none font-light">{{ slotProps.data.position }}</span>

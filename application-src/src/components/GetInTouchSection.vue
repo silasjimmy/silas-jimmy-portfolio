@@ -9,23 +9,23 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-[1fr_2fr] gap-[100px]">
+    <div class="grid grid-cols-[1fr_1.5fr] gap-[30px]">
       <div class="bg-gray-100 flex flex-col gap-6 p-6 rounded-lg">
         <h3 class="text-[20px] leading-none font-semibold">Contact Information</h3>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-2">
           <h4 class="text-lg leading-none font-medium">Email Address</h4>
 
           <span class="text-sm leading-none font-light">jimmysilas17@gmail.com</span>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-2">
           <h4 class="text-lg leading-none font-medium">Mobile Number</h4>
 
           <span class="text-sm leading-none font-light">+254 719 773 594</span>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-2">
           <h4 class="text-lg leading-none font-medium">Location</h4>
 
           <span class="text-sm leading-none font-light">Nairobi, Kenya</span>

@@ -6,7 +6,7 @@
       </div>
 
       <div class="w-3/4 flex flex-col gap-4 items-center">
-        <div class="title-wrapper w-4/5 text-center">
+        <div class="text-center">
           <h1 class="text-4xl leading-none mb-3 font-bold">Hello, I'm Silas Jimmy</h1>
 
           <h1 class="text-4xl leading-none font-bold">Data Scientist</h1>
@@ -19,7 +19,7 @@
         </p>
       </div>
 
-      <div class="flex items-center gap-3">
+      <div class="flex items-center gap-3 mt-2 mb-3">
         <span class="w-2 h-2 bg-gray-100 rounded-full"></span>
 
         <small class="text-sm font-medium leading-none">Available for new projects</small>

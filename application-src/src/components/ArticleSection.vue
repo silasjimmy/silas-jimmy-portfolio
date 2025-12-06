@@ -16,10 +16,10 @@
           Utilising Figma Free to Build a Design System from Scratch
         </h4>
 
-        <p class="text-sm leading-[22px]">
+        <span class="text-sm leading-5 font-light">
           A practical guide to creating your own design system from scratch using a Figma Free
           account.
-        </p>
+        </span>
       </div>
 
       <div class="flex flex-col gap-4 py-6 border-b">
@@ -29,10 +29,10 @@
           Understanding crime in Los Angeles: Exploratory Data Analysis
         </h4>
 
-        <p class="text-sm leading-[22px]">
+        <span class="text-sm leading-5 font-light">
           A deep dive into the Los Angeles crime dataset 2020 to 2025 to understand crime rates and
           exploring intervention methods.
-        </p>
+        </span>
       </div>
 
       <div class="flex flex-col gap-4 py-6 border-b">
@@ -42,10 +42,10 @@
           Implementing a Continuous Integration / Continuous Delivery Pipeline using AWS
         </h4>
 
-        <p class="text-sm leading-[22px]">
+        <span class="text-sm leading-5 font-light">
           Building CI/CD pipeline using AWS CodeCommit and CodeDeploy to build, test and deploy
           APIs.
-        </p>
+        </span>
       </div>
     </div>
   </div>
