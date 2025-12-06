@@ -1,20 +1,20 @@
 <template>
-  <main class="lg:border-x lg:w-1/2 mx-auto">
+  <main class="lg:border-x 2xl:w-1/2 mx-auto">
     <navbar-section></navbar-section>
 
     <div class="mb-[100px]">
       <hero-section></hero-section>
     </div>
 
-    <div class="mb-[100px]">
-      <div class="grid grid-cols-2 gap-5">
+    <div class="mb-[100px] px-[30px]">
+      <div class="grid grid-cols-2 gap-[30px]">
         <about-me-section></about-me-section>
 
         <work-experience-section></work-experience-section>
       </div>
     </div>
 
-    <div class="mb-[100px]">
+    <div class="mb-[100px] px-[30px]">
       <article-section></article-section>
     </div>
 
@@ -22,11 +22,13 @@
       <testimonial-section></testimonial-section>
     </div>
 
-    <div class="mb-[100px]">
-      <faq-section></faq-section>
+    <div class="mb-[100px] px-[30px]">
+      <get-in-touch-section></get-in-touch-section>
     </div>
 
-    <footer-section></footer-section>
+    <div class="px-[30px]">
+      <footer-section></footer-section>
+    </div>
   </main>
 </template>
 
@@ -37,6 +39,6 @@ import AboutMeSection from '@/components/AboutMeSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ArticleSection from '@/components/ArticleSection.vue'
 import TestimonialSection from '@/components/TestimonialSection.vue'
-import FaqSection from '@/components/FaqSection.vue'
+import GetInTouchSection from '@/components/GetInTouchSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
 </script>

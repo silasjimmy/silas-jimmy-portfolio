@@ -1,8 +1,15 @@
 <template>
-  <div class="about-me-section">
-    <div class="bg-gray-100 h-8">About Me</div>
+  <div class="flex flex-col gap-4">
+    <h2 class="text-2xl leading-6 font-medium">About Me</h2>
 
-    <div class="bg-gray-100 h-40">paragraph</div>
+    <p class="text-sm leading-[22px] text-left">
+      With 3 years of experience in UI/UX design and frontend development, I specialize in crafting
+      intuitive, user-centered digital interfaces. As a software engineer and solution architect, I
+      leverage cloud technologies to design and implement scalable, highly available, and resilient
+      systems that drive operational efficiency. My expertise in data science and machine learning
+      enables me to build data‑driven products and predictive models, empowering organizations to
+      make informed, strategic decisions in their daily operations.
+    </p>
   </div>
 </template>
 
