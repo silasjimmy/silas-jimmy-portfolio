@@ -7,12 +7,12 @@
 
       <div class="w-3/4 flex flex-col gap-4 items-center">
         <div class="title-wrapper w-4/5 text-center">
-          <h1 class="text-[42px] leading-none mb-2.5 font-bold">Hello, I'm Silas Jimmy</h1>
+          <h1 class="text-4xl leading-none mb-3 font-bold">Hello, I'm Silas Jimmy</h1>
 
-          <h1 class="text-[42px] leading-none font-bold">Data Scientist</h1>
+          <h1 class="text-4xl leading-none font-bold">Data Scientist</h1>
         </div>
 
-        <p class="text-base leading-6 text-center">
+        <p class="text-sm leading-[22px] text-center">
           I help organizations design scalable, user-centered products, implement automated
           architectures powered by cloud technologies, and drive data-informed decisions through
           machine learning and AI.

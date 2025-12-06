@@ -10,7 +10,7 @@
           <small class="text-[14px] leading-none">Jan 2025 - Present</small>
         </div>
 
-        <p class="text-[16px] leading-none">Dema Africa (Self employed)</p>
+        <p class="text-sm leading-none">Dema Africa (Self employed)</p>
       </div>
 
       <div class="flex flex-col gap-3">
@@ -20,7 +20,7 @@
           <small class="text-[14px] leading-none">Aug 2024 - Nov 2024</small>
         </div>
 
-        <p class="text-[16px] leading-none">ConnectedHealth Pte (Contract)</p>
+        <p class="text-sm leading-none">ConnectedHealth Pte (Contract)</p>
       </div>
 
       <div class="flex flex-col gap-3">
@@ -30,7 +30,7 @@
           <small class="text-[14px] leading-none">Mar 2023 - Jun 2024</small>
         </div>
 
-        <p class="text-[16px] leading-none">Cyeco Africa (Part time)</p>
+        <p class="text-sm leading-none">Cyeco Africa (Part time)</p>
       </div>
     </div>
   </div>

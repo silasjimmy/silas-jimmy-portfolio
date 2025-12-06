@@ -13,7 +13,7 @@
             </div>
           </div>
 
-          <p class="testimonial-text text-base leading-6 text-left">{{ slotProps.data.testimonial }}</p>
+          <p class="testimonial-text text-sm leading-[22px] text-left">{{ slotProps.data.testimonial }}</p>
         </div>
       </template>
     </Carousel>

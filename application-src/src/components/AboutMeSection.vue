@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-4">
     <h2 class="text-[24px] leading-6 font-medium">About Me</h2>
 
-    <p class="text-base leading-6 text-left">
+    <p class="text-sm leading-[22px] text-left">
       With 3 years of experience in UI/UX design and frontend development, I specialize in crafting
       intuitive, user-centered digital interfaces. As a software engineer and solution architect, I
       leverage cloud technologies to design and implement scalable, highly available, and resilient
