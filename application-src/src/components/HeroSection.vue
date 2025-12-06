@@ -22,7 +22,7 @@
       <div class="flex items-center gap-3">
         <span class="w-2 h-2 bg-gray-100 rounded-full"></span>
 
-        <small>Available for new projects</small>
+        <small class="text-sm font-medium leading-none">Available for new projects</small>
       </div>
 
       <div class="flex items-center gap-6">
