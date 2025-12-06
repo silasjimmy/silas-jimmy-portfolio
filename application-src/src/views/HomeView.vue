@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="mb-[100px]">
+    <div class="mb-[100px] px-[30px]">
       <article-section></article-section>
     </div>
 

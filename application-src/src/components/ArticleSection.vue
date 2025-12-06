@@ -1,10 +1,53 @@
 <template>
-  <div class="article-section">
-    <div class="bg-gray-100 h-8">Recent Articles</div>
+  <div class="flex flex-col gap-6">
+    <div class="flex flex-col gap-4">
+      <h2 class="text-[24px] leading-6 font-medium">Latest Articles</h2>
 
-    <div class="bg-gray-100 h-6">subtitle</div>
+      <p class="text-base leading-6 text-left">
+        Read some of my thoughts on UI/UX Design, Cloud Technology and Data Science.
+      </p>
+    </div>
 
-    <div class="bg-gray-100 h-80">paragraph</div>
+    <div>
+      <div class="flex flex-col gap-4 py-6 border-b">
+        <small class="text-[14px] leading-none">Dec 19, 2025</small>
+
+        <h3 class="text-[18px] leading-none font-medium">
+          Utilising Figma Free to Build a Design System from Scratch
+        </h3>
+
+        <p class="text-[16px] leading-none">
+          A practical guide to creating your own design system from scratch using a Figma Free
+          account.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-4 py-6 border-b">
+        <small class="text-[14px] leading-none">Dec 19, 2025</small>
+
+        <h3 class="text-[18px] leading-none font-medium">
+          Understanding crime in Los Angeles: Exploratory Data Analysis
+        </h3>
+
+        <p class="text-[16px] leading-none">
+          A deep dive into the Los Angeles crime dataset 2020 to 2025 to understand crime rates and
+          exploring intervention methods.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-4 py-6 border-b">
+        <small class="text-[14px] leading-none">Dec 19, 2025</small>
+
+        <h3 class="text-[18px] leading-none font-medium">
+          Implementing a Continuous Integration / Continuous Delivery Pipeline using AWS
+        </h3>
+
+        <p class="text-[16px] leading-none">
+          Building CI/CD pipeline using AWS CodeCommit and CodeDeploy to build, test and deploy
+          APIs.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 

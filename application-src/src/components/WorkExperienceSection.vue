@@ -1,6 +1,6 @@
 <template>
-  <div class="work-experience-section">
-    <h2 class="text-[24px] leading-6 mb-2.5 font-medium">Work Experience</h2>
+  <div class="flex flex-col gap-4">
+    <h2 class="text-[24px] leading-6 font-medium">Work Experience</h2>
 
     <div class="flex flex-col gap-6">
       <div class="flex flex-col gap-3">

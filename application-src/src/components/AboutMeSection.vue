@@ -1,6 +1,6 @@
 <template>
-  <div class="about-me-section">
-    <h2 class="text-[24px] leading-6 mb-2.5 font-medium">About Me</h2>
+  <div class="flex flex-col gap-4">
+    <h2 class="text-[24px] leading-6 font-medium">About Me</h2>
 
     <p class="text-base leading-6 text-left">
       With 3 years of experience in UI/UX design and frontend development, I specialize in crafting
