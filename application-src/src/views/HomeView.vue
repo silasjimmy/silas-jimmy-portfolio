@@ -26,7 +26,9 @@
       <get-in-touch-section></get-in-touch-section>
     </div>
 
-    <footer-section></footer-section>
+    <div class="px-[30px]">
+      <footer-section></footer-section>
+    </div>
   </main>
 </template>
 
