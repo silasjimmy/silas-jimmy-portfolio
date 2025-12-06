@@ -9,7 +9,7 @@
             <div class="flex flex-col gap-4">
               <h3 class="text-lg leading-none font-medium">{{ slotProps.data.fullName }}</h3>
 
-              <span class="text-[16px] leading-none">{{ slotProps.data.position }}</span>
+              <span class="text-sm leading-none font-light">{{ slotProps.data.position }}</span>
             </div>
           </div>
 

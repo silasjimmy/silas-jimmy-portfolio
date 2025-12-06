@@ -16,19 +16,19 @@
         <div class="flex flex-col gap-4">
           <h4 class="text-lg leading-none font-medium">Email Address</h4>
 
-          <span class="text-sm leading-none">jimmysilas17@gmail.com</span>
+          <span class="text-sm leading-none font-light">jimmysilas17@gmail.com</span>
         </div>
 
         <div class="flex flex-col gap-4">
           <h4 class="text-lg leading-none font-medium">Mobile Number</h4>
 
-          <span class="text-sm leading-none">+254 719 773 594</span>
+          <span class="text-sm leading-none font-light">+254 719 773 594</span>
         </div>
 
         <div class="flex flex-col gap-4">
           <h4 class="text-lg leading-none font-medium">Location</h4>
 
-          <span class="text-sm leading-none">Nairobi, Kenya</span>
+          <span class="text-sm leading-none font-light">Nairobi, Kenya</span>
         </div>
       </div>
 

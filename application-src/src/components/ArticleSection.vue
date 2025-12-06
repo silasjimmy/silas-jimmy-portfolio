@@ -10,7 +10,7 @@
 
     <div>
       <div class="flex flex-col gap-4 py-6 border-b">
-        <small class="text-sm font-medium leading-none">Dec 19, 2025</small>
+        <span class="text-sm leading-none font-light">Dec 19, 2025</span>
 
         <h4 class="text-lg leading-none font-medium">
           Utilising Figma Free to Build a Design System from Scratch
@@ -23,7 +23,7 @@
       </div>
 
       <div class="flex flex-col gap-4 py-6 border-b">
-        <small class="text-sm font-medium leading-none">Dec 19, 2025</small>
+        <span class="text-sm leading-none font-light">Dec 19, 2025</span>
 
         <h4 class="text-lg leading-none font-medium">
           Understanding crime in Los Angeles: Exploratory Data Analysis
@@ -36,7 +36,7 @@
       </div>
 
       <div class="flex flex-col gap-4 py-6 border-b">
-        <small class="text-sm font-medium leading-none">Dec 19, 2025</small>
+        <span class="text-sm leading-none font-light">Dec 19, 2025</span>
 
         <h4 class="text-lg leading-none font-medium">
           Implementing a Continuous Integration / Continuous Delivery Pipeline using AWS
