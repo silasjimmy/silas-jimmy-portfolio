@@ -7,7 +7,7 @@
             <Avatar shape="circle" size="large"></Avatar>
 
             <div class="flex flex-col gap-4">
-              <h3 class="text-[18px] leading-none font-medium">{{ slotProps.data.fullName }}</h3>
+              <h3 class="text-lg leading-none font-medium">{{ slotProps.data.fullName }}</h3>
 
               <span class="text-[16px] leading-none">{{ slotProps.data.position }}</span>
             </div>
