@@ -1,6 +1,6 @@
 <template>
   <div class="border">
-    <h1>Art</h1>
+    <h1>Blog</h1>
   </div>
 </template>
 
