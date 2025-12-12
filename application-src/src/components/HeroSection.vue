@@ -2,14 +2,14 @@
   <div>
     <div class="hero-text flex flex-col gap-4 items-center pt-[100px] mb-[50px]">
       <div class="border rounded-full flex items-center justify-center p-0.5">
-        <Avatar size="xlarge" shape="circle" />
+        <Avatar shape="circle" image="images/silas-jimmy.jpg" class="h-[50px] w-[50px] md:h-[50px] md:w-[50px]" />
       </div>
 
-      <div class="w-3/4 flex flex-col gap-4 items-center">
+      <div class="mx-6 md:mx-0 md:w-3/4 flex flex-col gap-4 items-center">
         <div class="text-center">
-          <h1 class="text-4xl leading-none mb-3 font-bold">Hello, I'm Silas Jimmy</h1>
+          <h1 class="text-3xl md:text-4xl leading-none mb-3 font-bold">Hello, I'm Silas Jimmy</h1>
 
-          <h1 class="text-4xl leading-none font-bold">Data Scientist</h1>
+          <h1 class="text-3xl md:text-4xl leading-none font-bold">Data Scientist</h1>
         </div>
 
         <p class="text-sm leading-[22px] text-center">
@@ -48,10 +48,3 @@
 <script setup lang="ts">
 import Avatar from 'primevue/avatar'
 </script>
-
-<style scoped>
-.p-avatar-xl {
-  width: 70px;
-  height: 70px;
-}
-</style>
