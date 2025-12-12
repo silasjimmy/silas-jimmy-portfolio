@@ -1,5 +1,5 @@
 <template>
-  <main class="lg:border-x 2xl:w-1/2 mx-auto">
+  <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <navbar-section></navbar-section>
 
     <div class="pt-[200px] px-[30px]">
