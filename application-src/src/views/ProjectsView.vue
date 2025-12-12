@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <div class="border">
+      <div class="flex flex-col gap-[50px] mb-[100px]">
         <div class="flex items-center justify-center gap-6">
           <Button rounded label="All projects" severity="secondary" size="small" />
 
@@ -40,7 +40,109 @@
           <Button rounded label="Data" severity="secondary" size="small" />
         </div>
 
-        <div class="border"></div>
+        <div class="flex flex-col gap-6">
+          <!-- Project card -->
+          <div class="grid grid-cols-2 gap-[30px]">
+            <div class="order-1 flex flex-col gap-4 py-4">
+              <span class="text-sm leading-none font-light">2025</span>
+
+              <h4 class="text-lg leading-none font-medium">NobleTrace Website Design</h4>
+
+              <p class="text-sm leading-5 font-light">
+                Lorem ipsum dolor sit amet consectetur. A mauris vitae nullam dignissim commodo eu.
+                Proin nunc duis vel habitasse tincidunt in sem porttitor nisl. Pellentesque ipsum
+                integer in viverra sed nulla nec. Placerat nulla cras ultricies et in pellentesque
+                sit. Sed ut natoque tellus blandit etiam. Ante turpis odio turpis diam tellus
+                faucibus. Nibh arcu lacinia at urna nunc ut felis condimentum habitasse.
+              </p>
+
+              <RouterLink to="/projects" class="text-sm font-medium leading-none"
+                >View Project</RouterLink
+              >
+            </div>
+
+            <div class="order-2">
+              <div class="bg-gray-100 h-full w-full rounded-lg"></div>
+            </div>
+          </div>
+
+          <!-- Project card -->
+          <div class="grid grid-cols-2 gap-[30px]">
+            <div class="order-2 flex flex-col gap-4 py-4">
+              <span class="text-sm leading-none font-light">2025</span>
+
+              <h4 class="text-lg leading-none font-medium">NobleTrace Website Design</h4>
+
+              <p class="text-sm leading-5 font-light">
+                Lorem ipsum dolor sit amet consectetur. A mauris vitae nullam dignissim commodo eu.
+                Proin nunc duis vel habitasse tincidunt in sem porttitor nisl. Pellentesque ipsum
+                integer in viverra sed nulla nec. Placerat nulla cras ultricies et in pellentesque
+                sit. Sed ut natoque tellus blandit etiam. Ante turpis odio turpis diam tellus
+                faucibus. Nibh arcu lacinia at urna nunc ut felis condimentum habitasse.
+              </p>
+
+              <RouterLink to="/projects" class="text-sm font-medium leading-none"
+                >View Project</RouterLink
+              >
+            </div>
+
+            <div class="order-1">
+              <div class="bg-gray-100 h-full w-full rounded-lg"></div>
+            </div>
+          </div>
+
+          <!-- Project card -->
+          <div class="grid grid-cols-2 gap-[30px]">
+            <div class="order-1 flex flex-col gap-4 py-4">
+              <span class="text-sm leading-none font-light">2025</span>
+
+              <h4 class="text-lg leading-none font-medium">NobleTrace Website Design</h4>
+
+              <p class="text-sm leading-5 font-light">
+                Lorem ipsum dolor sit amet consectetur. A mauris vitae nullam dignissim commodo eu.
+                Proin nunc duis vel habitasse tincidunt in sem porttitor nisl. Pellentesque ipsum
+                integer in viverra sed nulla nec. Placerat nulla cras ultricies et in pellentesque
+                sit. Sed ut natoque tellus blandit etiam. Ante turpis odio turpis diam tellus
+                faucibus. Nibh arcu lacinia at urna nunc ut felis condimentum habitasse.
+              </p>
+
+              <RouterLink to="/projects" class="text-sm font-medium leading-none"
+                >View Project</RouterLink
+              >
+            </div>
+
+            <div class="order-2">
+              <div class="bg-gray-100 h-full w-full rounded-lg"></div>
+            </div>
+          </div>
+
+          <!-- Project card -->
+          <div class="grid grid-cols-2 gap-[30px]">
+            <div class="order-2 flex flex-col gap-4 py-4">
+              <span class="text-sm leading-none font-light">2025</span>
+
+              <h4 class="text-lg leading-none font-medium">NobleTrace Website Design</h4>
+
+              <p class="text-sm leading-5 font-light">
+                Lorem ipsum dolor sit amet consectetur. A mauris vitae nullam dignissim commodo eu.
+                Proin nunc duis vel habitasse tincidunt in sem porttitor nisl. Pellentesque ipsum
+                integer in viverra sed nulla nec. Placerat nulla cras ultricies et in pellentesque
+                sit. Sed ut natoque tellus blandit etiam. Ante turpis odio turpis diam tellus
+                faucibus. Nibh arcu lacinia at urna nunc ut felis condimentum habitasse.
+              </p>
+
+              <RouterLink to="/projects" class="text-sm font-medium leading-none"
+                >View Project</RouterLink
+              >
+            </div>
+
+            <div class="order-1">
+              <div class="bg-gray-100 h-full w-full rounded-lg"></div>
+            </div>
+          </div>
+        </div>
+
+        <Paginator :rows="10" :totalRecords="5"></Paginator>
       </div>
 
       <footer-section></footer-section>
@@ -49,7 +151,9 @@
 </template>
 
 <script setup lang="ts">
+import { RouterLink } from 'vue-router'
 import NavbarSection from '@/components/NavbarSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import Button from 'primevue/button'
+import Paginator from 'primevue/paginator'
 </script>
