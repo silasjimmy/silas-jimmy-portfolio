@@ -1,9 +1,12 @@
 <template>
-  <div>
-    <div class="hero-text flex flex-col gap-4 items-center pt-[100px] mb-[50px]">
-      <div class="border rounded-full flex items-center justify-center p-0.5">
-        <Avatar shape="circle" image="images/silas-jimmy.jpg" class="h-[50px] w-[50px] md:h-[50px] md:w-[50px]" />
-      </div>
+  <div class="pt-[100px] md:pt-[150px]">
+    <!-- Hero text -->
+    <div class="flex flex-col gap-4 items-center mb-[50px]">
+      <Avatar
+        shape="circle"
+        image="images/silas-jimmy.jpg"
+        class="ring-2 ring-gray-200 p-0.5 h-14 w-14 md:h-18 md:w-18"
+      />
 
       <div class="mx-6 md:mx-0 md:w-3/4 flex flex-col gap-4 items-center">
         <div class="text-center">
@@ -34,13 +37,16 @@
       </div>
     </div>
 
-    <div class="h-[200px] py-2 flex overflow-hidden gap-16">
-      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-4"></div>
-      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg -rotate-2"></div>
-      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-2"></div>
-      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-4"></div>
-      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg -rotate-2"></div>
-      <div class="w-[200px] h-full bg-gray-100 shrink-0 rounded-lg rotate-2"></div>
+    <!-- Hero carousel -->
+    <div class="carousel-container overflow-hidden">
+      <div class="h-[150px] md:h-[200px] py-2 flex gap-16 animate-scroll-x-left">
+        <div class="w-[150px] md:w-[200px] h-full bg-gray-500 shrink-0 rounded-lg rotate-4"></div>
+        <div class="w-[150px] md:w-[200px] h-full bg-gray-500 shrink-0 rounded-lg -rotate-2"></div>
+        <div class="w-[150px] md:w-[200px] h-full bg-gray-500 shrink-0 rounded-lg rotate-2"></div>
+        <div class="w-[150px] md:w-[200px] h-full bg-gray-500 shrink-0 rounded-lg rotate-4"></div>
+        <div class="w-[150px] md:w-[200px] h-full bg-gray-500 shrink-0 rounded-lg -rotate-2"></div>
+        <div class="w-[150px] md:w-[200px] h-full bg-gray-500 shrink-0 rounded-lg rotate-2"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -48,3 +54,9 @@
 <script setup lang="ts">
 import Avatar from 'primevue/avatar'
 </script>
+
+<style scoped>
+.carousel-container:hover div {
+  animation-play-state: paused;
+}
+</style>
