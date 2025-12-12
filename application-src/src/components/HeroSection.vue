@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-[100px]">
+  <div>
     <div class="hero-text flex flex-col gap-4 items-center pt-[100px] mb-[50px]">
       <div class="border rounded-full flex items-center justify-center p-0.5">
         <Avatar size="xlarge" shape="circle" />

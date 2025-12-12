@@ -1,12 +1,12 @@
 <template>
-  <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
-    <navbar-section></navbar-section>
+  <navbar-section></navbar-section>
 
+  <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <div class="mb-[100px]">
       <hero-section></hero-section>
     </div>
 
-    <div class="mb-[100px] px-[30px]">
+    <!-- <div class="mb-[100px] px-[30px]">
       <div class="grid grid-cols-2 gap-[30px]">
         <about-me-section></about-me-section>
 
@@ -28,7 +28,7 @@
 
     <div class="px-[30px]">
       <footer-section></footer-section>
-    </div>
+    </div> -->
   </main>
 </template>
 
