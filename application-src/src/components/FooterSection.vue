@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="border-t flex flex-col-reverse md:flex-row items-center md:justify-between gap-6 py-6 px-[30px] mt-[100px] md:mt-[150px]"
+    class="border-t flex flex-col-reverse md:flex-row items-center md:justify-between gap-6 py-6 mx-[30px] mt-[100px]"
   >
     <span class="text-sm leading-none font-light">© 2025 Silas Jimmy. Design by Autonomaz</span>
 

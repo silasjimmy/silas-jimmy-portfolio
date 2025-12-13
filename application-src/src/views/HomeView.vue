@@ -4,7 +4,7 @@
   <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <hero-section></hero-section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] mt-[50px] md:mt-[100px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-0 mt-[50px] md:mt-[100px]">
       <about-section></about-section>
 
       <work-experience-section></work-experience-section>
@@ -15,9 +15,9 @@
     <testimonial-section></testimonial-section>
 
     <get-in-touch-section></get-in-touch-section>
-  </main>
 
-  <footer-section></footer-section>
+    <footer-section></footer-section>
+  </main>
 </template>
 
 <script setup lang="ts">
