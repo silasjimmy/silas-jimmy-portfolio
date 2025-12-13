@@ -12,11 +12,9 @@
 
     <article-section></article-section>
 
-    <!-- <div class="mb-[100px]">
-      <testimonial-section></testimonial-section>
-    </div>
+    <testimonial-section></testimonial-section>
 
-    <div class="mb-[100px] px-[30px]">
+    <!-- <div class="mb-[100px] px-[30px]">
       <get-in-touch-section></get-in-touch-section>
     </div>
 

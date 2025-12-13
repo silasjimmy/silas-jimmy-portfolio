@@ -1,19 +1,30 @@
 <template>
-  <div class="bg-gray-100 p-[30px]">
-    <Carousel :value="testimonials" :showNavigators="false">
+  <div class="bg-gray-100 md:p-[30px] mt-[50px] md:mt-[100px]">
+    <Carousel
+      circular
+      :value="testimonials"
+      :showNavigators="false"
+      :numVisible="1"
+      :numScroll="1"
+      :autoplayInterval="3000"
+    >
       <template #item="slotProps">
-        <div class="flex flex-col gap-4 px-[50px] py-[30px]">
+        <div class="flex flex-col gap-4 p-[30px] md:px-[50px]">
           <div class="flex gap-4">
-            <Avatar shape="circle" size="large"></Avatar>
+            <Avatar shape="circle" class="ring-2 ring-gray-200 p-0.5 h-10 w-10 md:h-12 md:w-12" />
 
             <div class="flex flex-col gap-2">
-              <h3 class="text-lg leading-none font-medium">{{ slotProps.data.fullName }}</h3>
+              <h3 class="text-base md:text-lg leading-none font-medium">
+                {{ slotProps.data.fullName }}
+              </h3>
 
               <span class="text-sm leading-none font-light">{{ slotProps.data.position }}</span>
             </div>
           </div>
 
-          <p class="testimonial-text text-sm leading-[22px] text-left">{{ slotProps.data.testimonial }}</p>
+          <p class="testimonial-text text-sm leading-[22px] text-left">
+            {{ slotProps.data.testimonial }}
+          </p>
         </div>
       </template>
     </Carousel>
@@ -51,11 +62,6 @@ const testimonials = ref([
 </script>
 
 <style scoped>
-.p-avatar-lg {
-  width: 50px;
-  height: 50px;
-}
-
 .testimonial-text::before,
 .testimonial-text::after {
   content: '"';
