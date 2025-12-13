@@ -5,7 +5,7 @@
     <hero-section></hero-section>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] mt-[50px] md:mt-[100px]">
-      <about-me-section></about-me-section>
+      <about-section></about-section>
 
       <work-experience-section></work-experience-section>
     </div>
@@ -31,7 +31,7 @@
 <script setup lang="ts">
 import NavbarSection from '@/components/NavbarSection.vue'
 import HeroSection from '@/components/HeroSection.vue'
-import AboutMeSection from '@/components/AboutMeSection.vue'
+import AboutSection from '@/components/AboutSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ArticleSection from '@/components/ArticleSection.vue'
 import TestimonialSection from '@/components/TestimonialSection.vue'
