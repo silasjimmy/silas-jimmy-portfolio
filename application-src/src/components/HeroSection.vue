@@ -4,7 +4,7 @@
     <div class="flex flex-col gap-4 items-center mb-[50px]">
       <Avatar
         shape="circle"
-        image="images/silas-jimmy.jpg"
+        image="images/silas-jimmy-headshot.jpg"
         class="ring-2 ring-gray-200 p-0.5 h-14 w-14 md:h-18 md:w-18"
       />
 
