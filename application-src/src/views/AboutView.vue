@@ -3,9 +3,9 @@
 
   <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <div class="pt-[100px] md:pt-[150px] px-[30px]">
-      <div class="flex items-center gap-[50px] mb-[100px]">
+      <div class="flex flex-col md:flex-row items-center gap-[30px] md:gap-[50px] mb-[50px] md:mb-[50px]">
         <div class="flex flex-col gap-4">
-          <h1 class="text-4xl leading-none font-bold">About Me</h1>
+          <h1 class="text-3xl md:text-4xl leading-none font-bold">About Me</h1>
 
           <p class="text-sm leading-[22px] text-left">
             I am a problem solver who thrives in environments where curiosity and creativity
@@ -15,7 +15,7 @@
         </div>
 
         <div>
-          <div class="w-[150px] h-[200px] rounded-lg ring-2 ring-gray-200 rotate-4 p-0.5">
+          <div class="w-[150px] h-[200px] rounded-lg ring-2 ring-gray-200 md:rotate-4 p-0.5">
             <Image :pt="aboutImagePt" src="images/silas-jimmy-half.jpg" alt="Silas Jimmy" />
           </div>
         </div>
@@ -35,7 +35,7 @@
       </div>
 
       <div class="mb-[30px]">
-        <h3 class="mb-4 text-[20px] leading-none font-semibold">Skills</h3>
+        <h3 class="mb-4 text-lg md:text-xl leading-none font-semibold">Skills</h3>
 
         <p class="text-sm leading-[22px] text-left">
           I possess a diverse range of skills that enable me to contribute effectively in any team,
@@ -50,7 +50,7 @@
       </div>
 
       <div class="mb-[30px]">
-        <h3 class="mb-4 text-[20px] leading-none font-semibold">Motivation</h3>
+        <h3 class="mb-4 text-lg md:text-xl leading-none font-semibold">Motivation</h3>
 
         <p class="text-sm leading-[22px] text-left">
           In tech, many people will advise you to learn one skill and master it. While that approach
@@ -67,7 +67,7 @@
       </div>
 
       <div class="mb-[30px]">
-        <h3 class="mb-4 text-[20px] leading-none font-semibold">Hobbies</h3>
+        <h3 class="mb-4 text-lg md:text-xl leading-none font-semibold">Hobbies</h3>
 
         <p class="text-sm leading-[22px] text-left">
           When I am not writing code or designing architectures, you’ll often find me binge-watching

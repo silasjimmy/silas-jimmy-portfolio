@@ -1,5 +1,5 @@
 <template>
-  <div v-if="images" class="grid grid-cols-6 gap-4">
+  <div v-if="images" class="grid grid-cols-3 md:grid-cols-6 gap-4">
     <div v-for="(image, index) of images" :key="index" class="h-20">
       <Image preview :pt="itemImagePt" :src="image.itemImageSrc" :alt="image.alt" />
     </div>
