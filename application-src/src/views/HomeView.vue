@@ -14,11 +14,9 @@
 
     <testimonial-section></testimonial-section>
 
-    <!-- <div class="mb-[100px] px-[30px]">
-      <get-in-touch-section></get-in-touch-section>
-    </div>
+    <get-in-touch-section></get-in-touch-section>
 
-    <div class="px-[30px]">
+    <!-- <div class="px-[30px]">
       <footer-section></footer-section>
     </div> -->
   </main>
