@@ -10,11 +10,9 @@
       <work-experience-section></work-experience-section>
     </div>
 
-    <!-- <div class="mb-[100px] px-[30px]">
-      <article-section></article-section>
-    </div>
+    <article-section></article-section>
 
-    <div class="mb-[100px]">
+    <!-- <div class="mb-[100px]">
       <testimonial-section></testimonial-section>
     </div>
 

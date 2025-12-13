@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-6">
+  <div class="flex flex-col gap-6 mt-[50px] md:mt-[100px] px-[30px]">
     <div class="flex flex-col gap-4">
-      <h2 class="text-2xl leading-6 font-medium">Latest Articles</h2>
+      <h2 class="text-xl md:text-2xl leading-6 font-medium">Latest Articles</h2>
 
       <p class="text-sm leading-[22px] text-left">
         Read some of my thoughts on UI/UX Design, Cloud Technology and Data Science.
@@ -10,9 +10,9 @@
 
     <div>
       <div class="flex flex-col gap-4 py-6 border-b">
-        <span class="text-sm leading-none font-light">Dec 19, 2025</span>
+        <span class="text-xs md:text-sm leading-none font-light">Dec 19, 2025</span>
 
-        <h4 class="text-lg leading-none font-medium">
+        <h4 class="text-base md:text-lg leading-none font-medium">
           Utilising Figma Free to Build a Design System from Scratch
         </h4>
 
@@ -23,9 +23,9 @@
       </div>
 
       <div class="flex flex-col gap-4 py-6 border-b">
-        <span class="text-sm leading-none font-light">Dec 19, 2025</span>
+        <span class="text-xs md:text-sm leading-none font-light">Dec 19, 2025</span>
 
-        <h4 class="text-lg leading-none font-medium">
+        <h4 class="text-base md:text-lg leading-none font-medium">
           Understanding crime in Los Angeles: Exploratory Data Analysis
         </h4>
 
@@ -36,9 +36,9 @@
       </div>
 
       <div class="flex flex-col gap-4 py-6 border-b">
-        <span class="text-sm leading-none font-light">Dec 19, 2025</span>
+        <span class="text-xs md:text-sm leading-none font-light">Dec 19, 2025</span>
 
-        <h4 class="text-lg leading-none font-medium">
+        <h4 class="text-base md:text-lg leading-none font-medium">
           Implementing a Continuous Integration / Continuous Delivery Pipeline using AWS
         </h4>
 
