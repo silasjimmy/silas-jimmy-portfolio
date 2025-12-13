@@ -2,7 +2,7 @@
   <navbar-section></navbar-section>
 
   <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
-    <div class="pt-[200px] px-[30px]">
+    <div class="pt-[100px] md:pt-[150px] px-[30px]">
       <div class="flex items-center gap-[50px] mb-[100px]">
         <div class="flex flex-col gap-4">
           <h1 class="text-4xl leading-none font-bold">About Me</h1>
@@ -77,14 +77,17 @@
         </p>
       </div>
 
-      <footer-section></footer-section>
+      <!-- <gallery></gallery> -->
     </div>
+
+    <footer-section></footer-section>
   </main>
 </template>
 
 <script setup lang="ts">
 import NavbarSection from '@/components/NavbarSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
+// import Gallery from '@/components/Gallery.vue'
 import Image from 'primevue/image'
 
 // Define image pass-through properties for the about image
@@ -99,10 +102,3 @@ const aboutImagePt = {
   },
 }
 </script>
-
-<style scoped>
-.image {
-  /* object-fit: fill; */
-  border: 1px solid red;
-}
-</style>
