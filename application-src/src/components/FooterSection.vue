@@ -1,5 +1,7 @@
 <template>
-  <div class="border-t flex items-center justify-between py-6">
+  <footer
+    class="border-t flex flex-col-reverse md:flex-row items-center md:justify-between gap-6 py-6 px-[30px] mt-[100px] md:mt-[150px]"
+  >
     <span class="text-sm leading-none font-light">© 2025 Silas Jimmy. Design by Autonomaz</span>
 
     <div class="flex items-center gap-6">
@@ -9,7 +11,7 @@
 
       <span class="pi pi-github" style="font-size: 18px"></span>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script setup lang="ts"></script>

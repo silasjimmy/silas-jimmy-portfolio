@@ -15,11 +15,9 @@
     <testimonial-section></testimonial-section>
 
     <get-in-touch-section></get-in-touch-section>
-
-    <!-- <div class="px-[30px]">
-      <footer-section></footer-section>
-    </div> -->
   </main>
+
+  <footer-section></footer-section>
 </template>
 
 <script setup lang="ts">
