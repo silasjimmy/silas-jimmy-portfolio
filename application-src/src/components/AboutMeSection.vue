@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col gap-4">
-    <h2 class="text-2xl leading-6 font-medium">About Me</h2>
+  <div class="flex flex-col gap-4 px-[30px]">
+    <h2 class="text-xl md:text-2xl leading-6 font-medium">About Me</h2>
 
     <p class="text-sm leading-[22px] text-left">
       With 3 years of experience in UI/UX design and frontend development, I specialize in crafting

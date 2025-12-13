@@ -4,15 +4,13 @@
   <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <hero-section></hero-section>
 
-    <!-- <div class="mb-[100px] px-[30px]">
-      <div class="grid grid-cols-2 gap-[30px]">
-        <about-me-section></about-me-section>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] mt-[50px] md:mt-[100px]">
+      <about-me-section></about-me-section>
 
-        <work-experience-section></work-experience-section>
-      </div>
+      <work-experience-section></work-experience-section>
     </div>
 
-    <div class="mb-[100px] px-[30px]">
+    <!-- <div class="mb-[100px] px-[30px]">
       <article-section></article-section>
     </div>
 
