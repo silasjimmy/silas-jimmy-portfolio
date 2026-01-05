@@ -105,7 +105,7 @@
 
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import NavbarSection from '@/components/NavbarSection.vue'
+import NavbarSection from '@/components/sections/NavbarSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import Button from 'primevue/button'
 import Image from 'primevue/image'

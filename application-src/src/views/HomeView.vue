@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import NavbarSection from '@/components/NavbarSection.vue'
+import NavbarSection from '@/components/sections/NavbarSection.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'

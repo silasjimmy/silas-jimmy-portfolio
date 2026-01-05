@@ -1,7 +1,7 @@
 <template>
-  <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
-    <navbar-section></navbar-section>
+  <navbar-section></navbar-section>
 
+  <!-- <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <div class="pt-[200px] px-[30px]">
       <div class="flex items-center gap-[50px] mb-[100px]">
         <div class="flex flex-col gap-4">
@@ -34,7 +34,6 @@
         </div>
 
         <div class="flex flex-col gap-[50px]">
-          <!-- Aticle card -->
           <div class="grid grid-cols-2 gap-[30px]">
             <div>
               <div class="w-full h-full rounded-lg ring-10 ring-gray-100 -rotate-2">
@@ -62,8 +61,6 @@
               </RouterLink>
             </div>
           </div>
-
-          <!-- Aticle card -->
           <div class="grid grid-cols-2 gap-[30px]">
             <div>
               <div class="w-full h-full rounded-lg ring-10 ring-gray-100 rotate-2">
@@ -91,8 +88,6 @@
               </RouterLink>
             </div>
           </div>
-
-          <!-- Aticle card -->
           <div class="grid grid-cols-2 gap-[30px]">
             <div>
               <div class="w-full h-full rounded-lg ring-10 ring-gray-100 -rotate-2">
@@ -120,8 +115,6 @@
               </RouterLink>
             </div>
           </div>
-
-          <!-- Aticle card -->
           <div class="grid grid-cols-2 gap-[30px]">
             <div>
               <div class="w-full h-full rounded-lg ring-10 ring-gray-100 rotate-2">
@@ -156,12 +149,12 @@
 
       <footer-section></footer-section>
     </div>
-  </main>
+  </main> -->
 </template>
 
 <script setup lang="ts">
-import NavbarSection from '@/components/NavbarSection.vue'
-import FooterSection from '@/components/FooterSection.vue'
-import Button from 'primevue/button'
-import Paginator from 'primevue/paginator'
+import NavbarSection from '@/components/sections/NavbarSection.vue'
+// import FooterSection from '@/components/FooterSection.vue'
+// import Button from 'primevue/button'
+// import Paginator from 'primevue/paginator'
 </script>
