@@ -1,5 +1,7 @@
 <template>
-  <navbar-section></navbar-section>
+  <main class="border">
+    <h1>Hello</h1>
+  </main>
 
   <!-- <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
     <div class="pt-[200px] px-[30px]">
@@ -153,8 +155,6 @@
 </template>
 
 <script setup lang="ts">
-import NavbarSection from '@/components/sections/NavbarSection.vue'
-// import FooterSection from '@/components/FooterSection.vue'
 // import Button from 'primevue/button'
 // import Paginator from 'primevue/paginator'
 </script>

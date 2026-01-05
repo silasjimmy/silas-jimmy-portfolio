@@ -31,7 +31,7 @@
 
 <script setup lang="ts">
 import NavbarSection from '@/components/sections/NavbarSection.vue'
-import FooterSection from '@/components/FooterSection.vue'
+import FooterSection from '@/components/sections/FooterSection.vue'
 import Image from 'primevue/image'
 
 // Define image pass-through properties for the about image

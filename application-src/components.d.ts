@@ -14,7 +14,7 @@ declare module 'vue' {
     AboutSection: typeof import('./src/components/AboutSection.vue')['default']
     ArticleSection: typeof import('./src/components/ArticleSection.vue')['default']
     Button: typeof import('primevue/button')['default']
-    FooterSection: typeof import('./src/components/FooterSection.vue')['default']
+    FooterSection: typeof import('./src/components/sections/FooterSection.vue')['default']
     Gallery: typeof import('./src/components/Gallery.vue')['default']
     GetInTouchSection: typeof import('./src/components/GetInTouchSection.vue')['default']
     HeroSection: typeof import('./src/components/HeroSection.vue')['default']

@@ -28,5 +28,5 @@ import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ArticleSection from '@/components/ArticleSection.vue'
 import TestimonialSection from '@/components/TestimonialSection.vue'
 import GetInTouchSection from '@/components/GetInTouchSection.vue'
-import FooterSection from '@/components/FooterSection.vue'
+import FooterSection from '@/components/sections/FooterSection.vue'
 </script>

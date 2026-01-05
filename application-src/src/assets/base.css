@@ -5,6 +5,10 @@
 @theme {
   --font-sans: 'Public Sans', sans-serif; /* Override default tailwindcss font family */
 
+  /* Custom variables */
+  --ui-container: 56rem;
+  --ui-header-height: calc(.25rem * 16);
+
   /* Animations */
   /* --animate-scroll-x-left: scroll-x-left 6s linear infinite; */
 
