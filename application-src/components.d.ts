@@ -11,7 +11,8 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AboutSection: typeof import('./src/components/AboutSection.vue')['default']
+    AboutMeSection: typeof import('./src/components/sections/AboutMeSection.vue')['default']
+    AboutSection: typeof import('./src/components/sections/AboutSection.vue')['default']
     ArticleSection: typeof import('./src/components/ArticleSection.vue')['default']
     AutoscrollGallery: typeof import('./src/components/gallery/AutoscrollGallery.vue')['default']
     Avatar: typeof import('primevue/avatar')['default']

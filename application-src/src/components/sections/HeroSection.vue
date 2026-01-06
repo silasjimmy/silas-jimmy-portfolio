@@ -1,5 +1,5 @@
 <template>
-  <div class="py-18 sm:py-24 lg:py-32">
+  <div class="pt-18 sm:pt-24 lg:pt-32">
     <div
       class="w-full mx-auto px-4 flex flex-col gap-16 mb-16 sm:px-6 lg:px-8"
     >
@@ -26,7 +26,7 @@
             Software Engineer & AWS Solutions Architect
           </h2>
 
-          <p class="text-md mx-auto max-w-2xl text-balance mt-6 text-gray-500">
+          <p class="text-md mx-auto max-w-2xl text-balance mt-6 text-muted-color">
             I help businesses and organizations develop and deploy scalable, user-center products in
             the cloud.
           </p>

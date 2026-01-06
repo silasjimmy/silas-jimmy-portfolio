@@ -4,10 +4,10 @@
       class="relative flex gap-1.5 [&>div]:min-w-0 items-center justify-between backdrop-blur-sm rounded-full px-2 shadow-lg shadow-neutral-950/5 bg-gray-50 border border-gray-200 sm:px-4"
     >
       <div class="relative">
-        <ul class="isolate min-w-0 flex items-center">
+        <ul class="isolate min-w-0 flex items-center text-muted-color">
           <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md text-gray-500 hover:text-gray-900 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
               to="/"
             >
               Home
@@ -16,7 +16,7 @@
 
           <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md text-gray-500 hover:text-gray-900 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
               to="/blog"
             >
               About
@@ -25,7 +25,7 @@
 
           <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md text-gray-500 hover:text-gray-900 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
               to="/blog"
             >
               Projects
@@ -34,7 +34,7 @@
 
           <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md text-gray-500 hover:text-gray-900 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
               to="/blog"
             >
               Volunteer
@@ -43,7 +43,7 @@
 
           <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md text-gray-500 hover:text-gray-900 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
               to="/blog"
             >
               Blog
