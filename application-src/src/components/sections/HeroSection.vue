@@ -9,7 +9,7 @@
           <div class="mb-4 flex items-center justify-center">
             <Avatar
               shape="circle"
-              image="images/silas-jimmy-headshot.jpg"
+              image="/images/silas-jimmy-headshot.jpg"
               class="ring-2 ring-gray-200 p-0.5 h-14 w-14 md:h-18 md:w-18"
             />
           </div>
@@ -39,7 +39,7 @@
               <Button
                 as="router-link"
                 variant="text"
-                to="/"
+                to="/blog"
                 class="rouded-md inline-flex items-center font-medium text-sm text-green-500 gap-2"
               >
                 <div class="relative flex items-center justify-center h-2 w-2">

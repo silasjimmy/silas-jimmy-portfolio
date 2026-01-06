@@ -25,11 +25,13 @@
           <span>{{ post?.readTime }} MIN READ</span>
         </div>
 
-        <img
-          class="ring-1 ring-gray-400 rounded-lg w-full h-[300px] object-cover object-center"
-          src=""
-          alt=""
-        />
+        <div class="border rounded-lg h-[300px]">
+          <img
+            class="ring-1 ring-gray-400 rounded-lg w-full h-full object-cover object-center"
+            :src="post?.image"
+            :alt="post?.title"
+          />
+        </div>
 
         <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
           {{ post?.title }}
@@ -41,7 +43,11 @@
 
         <div class="flex items-center justify-center gap-2 mt-2">
           <div class="relative flex flex-col gap-2 justify-center items-center text-center">
-            <Avatar shape="circle"></Avatar>
+            <Avatar
+              class="p-overlay-badge"
+              image="/images/silas-jimmy-headshot.jpg"
+              shape="circle"
+            />
 
             <p class="font-medium text-sm text-gray-900">{{ post?.author }}</p>
           </div>
@@ -71,7 +77,7 @@ const post = ref<BlogPostContent>()
 onMounted(async () => {
   // Initialize the posts store if not containing any posts
   if (posts.value.length === 0) await postsStore.getPosts()
-  
+
   // Retrieve the relevant post from the array of posts
   post.value = posts.value.find((post) => post.id === props.id)
 })

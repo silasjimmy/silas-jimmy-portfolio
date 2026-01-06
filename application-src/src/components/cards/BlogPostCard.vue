@@ -1,7 +1,7 @@
 <template>
   <article class="relative flex flex-col rounded-lg lg:grid lg:grid-cols-2 gap-x-8 lg:items-center">
-    <div class="ring-1 ring-gray-200 relative aspect-video w-full shadow-lg rounded-lg sm:rotate-1">
-        <img :src="props.image" :alt="props.title">
+    <div class="ring-1 ring-gray-200 relative aspect-video w-full max-h-70 shadow-lg rounded-lg sm:rotate-1">
+        <img class="object-cover w-full h-full rounded-lg" :src="props.image" :alt="props.title">
     </div>
 
     <div class="flex-1 flex flex-col justify-center p-4 sm:p-6 lg:px-0">

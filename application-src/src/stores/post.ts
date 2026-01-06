@@ -12,26 +12,15 @@ export const usePostStore = defineStore('post', () => {
     try {
       const res = [
         {
-          date: 'Apr 23, 2025',
-          title: 'From Mockup to Market: My End-to-End Product Design Process',
+          date: 'Jan 6, 2026',
+          title: 'Building a CI/CD Pipeline from Scratch: VPC',
           description:
-            'A detailed breakdown of my iterative design methodology, from initial research to final handoff, with practical tips for designers at every stage.',
-          image: '',
+            'An overview of the network architecture i built and used to implement the CI/CD pipeline.',
+          image: '/images/blog/header/amazon-vpc.png',
           id: '1',
           readTime: 8,
           author: 'Silas Jimmy',
-          authoImage: '',
-        },
-        {
-          date: 'Mar 15, 2025',
-          title: 'The Psychology of Color in UI Design',
-          description:
-            'Exploring how strategic color choices can influence user behavior, evoke emotions, and enhance the overall user experience of digital products.',
-          image: '',
-          id: '2',
-          readTime: 8,
-          author: 'Silas Jimmy',
-          authoImage: '',
+          authoImage: '/images/silas-jimmy-half.jpg',
         },
       ]
 

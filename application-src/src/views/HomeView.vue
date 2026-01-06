@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-y-24">
+  <div class="flex flex-col gap-y-16 sm:gap-y-24">
     <hero-section></hero-section>
 
     <about-me-section></about-me-section>

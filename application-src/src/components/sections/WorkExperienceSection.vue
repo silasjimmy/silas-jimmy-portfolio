@@ -4,25 +4,25 @@
       Work Experience
     </h2>
 
-    <div class="text-muted-color text-center text-balance mt-2">
+    <div class="text-muted-color text-balance mt-2">
       <div class="flex flex-col gap-2">
-        <div class="flex items-center gap-2 text-nowrap">
+        <div class="flex flex-col mb-3 gap-2 text-nowrap sm:flex-row sm:items-center">
           <p class="text-sm">2025 - Present</p>
 
-          <div class="border-solid border-t w-full border-gray-200"></div>
+          <div class="border-solid border-t w-full hidden border-gray-200 sm:block"></div>
 
           <a
             href="#"
-            class="focus-visible:outline-primary hover:text-gray-900 text-base transition-colors flex items-center gap-1"
+            class="focus-visible:outline-primary hover:text-gray-900 text-base transition-colors flex items-center gap-1 "
           >
             Software Engineer at <strong class="text-green-500">Dema Africa</strong>
           </a>
         </div>
 
-        <div class="flex items-center gap-2 text-nowrap">
+        <div class="flex flex-col mb-3 gap-2 text-nowrap sm:flex-row sm:items-center">
           <p class="text-sm">2024 - 2024</p>
 
-          <div class="border-solid border-t w-full border-gray-200"></div>
+          <div class="border-solid border-t w-full hidden border-gray-200 sm:block"></div>
 
           <a
             href="#"
@@ -32,10 +32,10 @@
           </a>
         </div>
 
-        <div class="flex items-center gap-2 text-nowrap">
+        <div class="flex flex-col mb-3 gap-2 text-nowrap sm:flex-row sm:items-center">
           <p class="text-sm">2023 - 2024</p>
 
-          <div class="border-solid border-t w-full border-gray-200"></div>
+          <div class="border-solid border-t w-full hidden border-gray-200 sm:block"></div>
 
           <a
             href="#"

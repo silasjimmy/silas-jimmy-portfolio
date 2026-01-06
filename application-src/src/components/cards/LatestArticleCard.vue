@@ -16,7 +16,7 @@
       </p>
     </router-link>
 
-    <router-link to="/" class="text-xs text-green-500">Read Article</router-link>
+    <router-link :to="`/blog/${props.id}`"  class="text-xs text-green-500">Read Article</router-link>
   </article>
 </template>
 
