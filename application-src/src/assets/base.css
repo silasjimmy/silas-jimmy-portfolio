@@ -5,16 +5,20 @@
 @theme {
   --font-sans: 'Public Sans', sans-serif; /* Override default tailwindcss font family */
 
-  /* Animations */
-  --animate-scroll-x-left: scroll-x-left 6s linear infinite;
+  /* Custom variables */
+  --ui-container: 56rem;
+  --ui-header-height: calc(.25rem * 16);
 
-  @keyframes scroll-x-left {
+  /* Animations */
+  /* --animate-scroll-x-left: scroll-x-left 6s linear infinite; */
+
+  /* @keyframes scroll-x-left {
     0% {
       transform: translate3d(0, 0, 0);
     }
-    100% {
+    100% { */
       /* Translate by -50% because content is doubled */
-      transform: translate3d(-50%, 0, 0);
+      /* transform: translate3d(-50%, 0, 0);
     }
-  }
+  } */
 }

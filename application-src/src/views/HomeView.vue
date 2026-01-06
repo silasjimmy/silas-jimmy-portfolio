@@ -1,32 +1,24 @@
 <template>
-  <navbar-section></navbar-section>
-
-  <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
+  <div class="flex flex-col gap-y-16 sm:gap-y-24">
     <hero-section></hero-section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-0 mt-[50px] md:mt-[100px]">
-      <about-section></about-section>
+    <about-me-section></about-me-section>
 
-      <work-experience-section></work-experience-section>
-    </div>
+    <work-experience-section></work-experience-section>
 
-    <article-section></article-section>
+    <latest-articles-section></latest-articles-section>
 
-    <testimonial-section></testimonial-section>
+    <testimonials-section></testimonials-section>
 
-    <get-in-touch-section></get-in-touch-section>
-
-    <footer-section></footer-section>
-  </main>
+    <faqs-section></faqs-section>
+  </div>
 </template>
 
 <script setup lang="ts">
-import NavbarSection from '@/components/NavbarSection.vue'
-import HeroSection from '@/components/HeroSection.vue'
-import AboutSection from '@/components/AboutSection.vue'
-import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
-import ArticleSection from '@/components/ArticleSection.vue'
-import TestimonialSection from '@/components/TestimonialSection.vue'
-import GetInTouchSection from '@/components/GetInTouchSection.vue'
-import FooterSection from '@/components/FooterSection.vue'
+import HeroSection from '@/components/sections/HeroSection.vue'
+import AboutMeSection from '@/components/sections/AboutMeSection.vue'
+import WorkExperienceSection from '@/components/sections/WorkExperienceSection.vue'
+import LatestArticlesSection from '@/components/sections/LatestArticlesSection.vue'
+import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
+import FaqsSection from '@/components/sections/FaqsSection.vue'
 </script>
