@@ -23,17 +23,18 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
 import BlogPostCard from '@/components/cards/BlogPostCard.vue'
-import type { BlogPostCardContent } from '@/utils/types'
+import { usePostStore } from '@/stores/post'
+import { storeToRefs } from 'pinia'
+import { onMounted } from 'vue'
 
-const posts = ref<BlogPostCardContent[]>([
-  {
-    date: 'Jan 5, 2026',
-    title: 'A very good title',
-    description: 'lorem ipsum',
-    image: '',
-    id: '1',
-  },
-])
+const postsStore = usePostStore()
+const { posts } = storeToRefs(postsStore)
+
+/**
+ * Retrieves the blog posts once the component is mounted.
+ */
+onMounted(async () => {
+  await postsStore.getPosts()
+})
 </script>
