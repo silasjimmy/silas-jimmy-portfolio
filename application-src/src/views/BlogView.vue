@@ -15,12 +15,7 @@
     <section class="relative isolate">
       <div class="w-full px-4 flex flex-col gap-8 pt-0 sm:px-6 sm:gap-y-16">
         <div v-for="post in posts">
-          <blog-post-card
-            :date="post.date"
-            :title="post.title"
-            :description="post.description"
-            :image-url="post.imageUrl"
-          ></blog-post-card>
+          <blog-post-card :key="post.id" v-bind="post"></blog-post-card>
         </div>
       </div>
     </section>
@@ -30,13 +25,15 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import BlogPostCard from '@/components/cards/BlogPostCard.vue'
+import type { BlogPostCardContent } from '@/utils/types'
 
-const posts = ref([
+const posts = ref<BlogPostCardContent[]>([
   {
     date: 'Jan 5, 2026',
     title: 'A very good title',
     description: 'lorem ipsum',
-    imageUrl: '',
+    image: '',
+    id: '1',
   },
 ])
 </script>

@@ -34,7 +34,7 @@
       <div
         class="text-xs font-light flex items-center justify-center gap-x-1.5 mt-3 lg:justify-start lg:flex-1 lg:mt-0 lg:order-1"
       >
-        <span>© 2025 Silas Jimmy.</span>
+        <span>© 2026 Silas Jimmy.</span>
       </div>
     </div>
   </footer>

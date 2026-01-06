@@ -13,6 +13,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutSection: typeof import('./src/components/AboutSection.vue')['default']
     ArticleSection: typeof import('./src/components/ArticleSection.vue')['default']
+    Avatar: typeof import('primevue/avatar')['default']
     BlogPostCard: typeof import('./src/components/cards/BlogPostCard.vue')['default']
     Button: typeof import('primevue/button')['default']
     FooterSection: typeof import('./src/components/sections/FooterSection.vue')['default']
