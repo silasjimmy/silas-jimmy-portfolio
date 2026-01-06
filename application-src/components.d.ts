@@ -13,6 +13,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutMeSection: typeof import('./src/components/sections/AboutMeSection.vue')['default']
     AboutSection: typeof import('./src/components/sections/AboutSection.vue')['default']
+    Accordion: typeof import('primevue/accordion')['default']
+    AccordionContent: typeof import('primevue/accordioncontent')['default']
+    AccordionHeader: typeof import('primevue/accordionheader')['default']
+    AccordionPanel: typeof import('primevue/accordionpanel')['default']
     ArticleSection: typeof import('./src/components/sections/ArticleSection.vue')['default']
     AutoscrollGallery: typeof import('./src/components/gallery/AutoscrollGallery.vue')['default']
     Avatar: typeof import('primevue/avatar')['default']

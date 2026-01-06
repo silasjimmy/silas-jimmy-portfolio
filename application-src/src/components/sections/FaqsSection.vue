@@ -11,46 +11,153 @@
         </p>
       </div>
 
-      <div class="border flexflex-col w-full gap-4 items-center">
-        <Tabs value="0">
+      <div class="flexflex-col w-full gap-4 items-center">
+        <Tabs value="services">
           <TabList>
-            <Tab value="0">Header I</Tab>
-            <Tab value="1">Header II</Tab>
-            <Tab value="2">Header III</Tab>
+            <Tab value="services" class="grow max-w-1/3">
+              <div class="truncate">
+                <span class="text-sm font-medium">Services</span>
+              </div>
+            </Tab>
+
+            <Tab value="projects" class="grow max-w-1/3">
+              <div class="truncate">
+                <span class="text-sm font-medium">Projects</span>
+              </div>
+            </Tab>
+
+            <Tab value="contact" class="grow max-w-1/3">
+              <div class="truncate">
+                <span class="text-sm font-medium">Contact</span>
+              </div>
+            </Tab>
           </TabList>
 
           <TabPanels>
-            <TabPanel value="0">
-              <p class="m-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-              </p>
+            <TabPanel value="services">
+              <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
+                <AccordionPanel value="0">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0 text-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
+                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
+                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="1">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
+                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
+                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="2">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
+                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
+                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+              </Accordion>
             </TabPanel>
 
-            <TabPanel value="1">
-              <p class="m-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                magni dolores eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci
-                velit, sed quia non numquam eius modi.
-              </p>
+            <TabPanel value="projects">
+              <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
+                <AccordionPanel value="0">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0 text-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
+                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
+                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="1">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
+                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
+                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="2">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
+                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
+                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+              </Accordion>
             </TabPanel>
 
-            <TabPanel value="2">
-              <p class="m-0">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-                eligendi optio cumque nihil impedit quo minus.
-              </p>
+            <TabPanel value="contact">
+              <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
+                <AccordionPanel value="0">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">Email Address</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0 text-sm">jimmysilas17@gmail.com</p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="1">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">Phone number</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0 text-sm">+254 719 773 594</p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="2">
+                  <AccordionHeader>
+                    <span class="text-sm sm:text-base">Location</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0 text-sm">Nairobi, Kenya</p>
+                  </AccordionContent>
+                </AccordionPanel>
+              </Accordion>
             </TabPanel>
           </TabPanels>
         </Tabs>
