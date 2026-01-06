@@ -1,5 +1,5 @@
 <template>
-  <div class="border px-4 sm:px-6 lg:px-8">
+  <section class="relative isolate px-4 sm:px-6 lg:px-8">
     <h2 class="text-pretty tracking-tight text-left text-xl sm:text-xl lg:text-2xl font-medium">
       About Me
     </h2>
@@ -11,7 +11,7 @@
       am expanding into data science, building expertise in data analysis and machine learning to
       create intelligent, data-driven solutions.
     </p>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts"></script>

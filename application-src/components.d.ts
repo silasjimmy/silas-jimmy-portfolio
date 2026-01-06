@@ -26,6 +26,6 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TestimonialSection: typeof import('./src/components/TestimonialSection.vue')['default']
-    WorkExperienceSection: typeof import('./src/components/WorkExperienceSection.vue')['default']
+    WorkExperienceSection: typeof import('./src/components/sections/WorkExperienceSection.vue')['default']
   }
 }
