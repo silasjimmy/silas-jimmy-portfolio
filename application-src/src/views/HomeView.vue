@@ -1,32 +1,14 @@
 <template>
-  <navbar-section></navbar-section>
-
-  <main class="2xl:w-1/2 xl:w-2/3 lg:w-3/4 lg:border-x mx-auto">
+  <div class="border">
     <hero-section></hero-section>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-0 mt-[50px] md:mt-[100px]">
-      <about-section></about-section>
-
-      <work-experience-section></work-experience-section>
-    </div>
-
-    <article-section></article-section>
-
-    <testimonial-section></testimonial-section>
-
-    <get-in-touch-section></get-in-touch-section>
-
-    <footer-section></footer-section>
-  </main>
+  </div>
 </template>
 
 <script setup lang="ts">
-import NavbarSection from '@/components/sections/NavbarSection.vue'
-import HeroSection from '@/components/HeroSection.vue'
+import HeroSection from '@/components/sections/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ArticleSection from '@/components/ArticleSection.vue'
 import TestimonialSection from '@/components/TestimonialSection.vue'
 import GetInTouchSection from '@/components/GetInTouchSection.vue'
-import FooterSection from '@/components/sections/FooterSection.vue'
 </script>

@@ -8,7 +8,7 @@
           <li class="min-w-0 py-2">
             <router-link
               class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md text-gray-500 hover:text-gray-900 transition-colors px-2 py-1"
-              to="/blog"
+              to="/"
             >
               Home
             </router-link>
