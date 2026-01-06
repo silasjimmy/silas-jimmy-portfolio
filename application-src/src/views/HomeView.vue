@@ -7,6 +7,8 @@
     <work-experience-section></work-experience-section>
 
     <latest-articles-section></latest-articles-section>
+
+    <testimonials-section></testimonials-section>
   </div>
 </template>
 
@@ -15,6 +17,6 @@ import HeroSection from '@/components/sections/HeroSection.vue'
 import AboutMeSection from '@/components/sections/AboutMeSection.vue'
 import WorkExperienceSection from '@/components/sections/WorkExperienceSection.vue'
 import LatestArticlesSection from '@/components/sections/LatestArticlesSection.vue'
-import TestimonialSection from '@/components/TestimonialSection.vue'
+import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 import GetInTouchSection from '@/components/GetInTouchSection.vue'
 </script>

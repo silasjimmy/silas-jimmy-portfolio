@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 md:p-[30px] mt-[50px] md:mt-[100px]">
+  <div>
     <Carousel
       circular
       :value="testimonials"
@@ -9,22 +9,24 @@
       :autoplayInterval="3000"
     >
       <template #item="slotProps">
-        <div class="flex flex-col gap-4 p-[30px] md:px-[50px]">
-          <div class="flex gap-4">
-            <Avatar shape="circle" class="ring-2 ring-gray-200 p-0.5 h-10 w-10 md:h-12 md:w-12" />
-
-            <div class="flex flex-col gap-2">
-              <h3 class="text-base md:text-lg leading-none font-medium">
-                {{ slotProps.data.fullName }}
-              </h3>
-
-              <span class="text-sm leading-none font-light">{{ slotProps.data.position }}</span>
-            </div>
+        <div
+          class="w-full mx-auto bg-gray-100 flex flex-col lg:grid px-6 py-12 sm:px-12 lg:px-16 gap-8 sm:py-12 lg:py-12 sm:gap-8"
+        >
+          <div>
+            <p class="text-base text-center text-muted-color text-balance">
+             "{{ slotProps.data.testimonial }}"
+            </p>
           </div>
 
-          <p class="testimonial-text text-sm leading-[22px] text-left">
-            {{ slotProps.data.testimonial }}
-          </p>
+          <div class="relative flex items-center gap-2.5 justify-center">
+            <Avatar shape="circle" size="large"></Avatar>
+
+            <div>
+              <p class="font-mecium text-base">{{ slotProps.data.fullName }}</p>
+
+              <p class="text-sm text-muted-color">{{ slotProps.data.position }}</p>
+            </div>
+          </div>
         </div>
       </template>
     </Carousel>
@@ -32,8 +34,6 @@
 </template>
 
 <script setup lang="ts">
-import Carousel from 'primevue/carousel'
-import Avatar from 'primevue/avatar'
 import { ref } from 'vue'
 
 const testimonials = ref([

@@ -18,6 +18,7 @@ declare module 'vue' {
     Avatar: typeof import('primevue/avatar')['default']
     BlogPostCard: typeof import('./src/components/cards/BlogPostCard.vue')['default']
     Button: typeof import('primevue/button')['default']
+    Carousel: typeof import('primevue/carousel')['default']
     FooterSection: typeof import('./src/components/sections/FooterSection.vue')['default']
     Gallery: typeof import('./src/components/Gallery.vue')['default']
     GetInTouchSection: typeof import('./src/components/GetInTouchSection.vue')['default']
@@ -27,7 +28,8 @@ declare module 'vue' {
     NavbarSection: typeof import('./src/components/sections/NavbarSection.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TestimonialSection: typeof import('./src/components/TestimonialSection.vue')['default']
+    TestimonialSection: typeof import('./src/components/sections/TestimonialSection.vue')['default']
+    TestimonialsSection: typeof import('./src/components/sections/TestimonialsSection.vue')['default']
     WorkExperienceSection: typeof import('./src/components/sections/WorkExperienceSection.vue')['default']
   }
 }
