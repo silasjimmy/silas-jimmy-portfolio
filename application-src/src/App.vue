@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full max-w-(--ui-container) mx-auto px-4 pt-10 border-gray-200 sm:px-6 lg:px-8 sm:border-x"
+    class="w-full max-w-(--ui-container) mx-auto pt-10 border-gray-200 sm:border-x"
   >
     <navbar-section></navbar-section>
 

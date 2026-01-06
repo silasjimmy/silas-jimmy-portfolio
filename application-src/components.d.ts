@@ -13,7 +13,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutMeSection: typeof import('./src/components/sections/AboutMeSection.vue')['default']
     AboutSection: typeof import('./src/components/sections/AboutSection.vue')['default']
-    ArticleSection: typeof import('./src/components/ArticleSection.vue')['default']
+    ArticleSection: typeof import('./src/components/sections/ArticleSection.vue')['default']
     AutoscrollGallery: typeof import('./src/components/gallery/AutoscrollGallery.vue')['default']
     Avatar: typeof import('primevue/avatar')['default']
     BlogPostCard: typeof import('./src/components/cards/BlogPostCard.vue')['default']
@@ -22,6 +22,8 @@ declare module 'vue' {
     Gallery: typeof import('./src/components/Gallery.vue')['default']
     GetInTouchSection: typeof import('./src/components/GetInTouchSection.vue')['default']
     HeroSection: typeof import('./src/components/sections/HeroSection.vue')['default']
+    LatestArticleCard: typeof import('./src/components/cards/LatestArticleCard.vue')['default']
+    LatestArticlesSection: typeof import('./src/components/sections/LatestArticlesSection.vue')['default']
     NavbarSection: typeof import('./src/components/sections/NavbarSection.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
