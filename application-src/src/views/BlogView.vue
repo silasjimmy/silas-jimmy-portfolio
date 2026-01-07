@@ -7,7 +7,7 @@
         Latest Articles
       </h1>
 
-      <p class="text-md text-balance mt-6 text-left text-gray-500">
+      <p class="text-md text-balance mt-6 text-left text-muted-color">
         Some of my recent thoughts on software development and system design.
       </p>
     </div>

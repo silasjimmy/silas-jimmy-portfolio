@@ -6,7 +6,7 @@
         <Button as-child>
           <router-link
             to="/blog"
-            class="text-sm text-gray-500 flex items-center gap-1 transition-colors hover:text-gray-900"
+            class="text-sm flex items-center gap-1 transition-colors hover:text-zinc-400"
           >
             <i class="pi pi-chevron-left" style="font-size: 14px"></i>
 
@@ -17,7 +17,7 @@
 
       <!-- Blog heading section -->
       <div class="flex flex-col gap-3 mt-8">
-        <div class="text-xs text-gray-600 flex items-center justify-center gap-2">
+        <div class="text-xs text-muted-color flex items-center justify-center gap-2">
           <span>{{ post?.date }}</span>
 
           <span>-</span>
@@ -25,9 +25,9 @@
           <span>{{ post?.readTime }} MIN READ</span>
         </div>
 
-        <div class="border rounded-lg h-[300px]">
+        <div class="rounded-lg h-[180px] sm:h-[250px] md:h-[330px]">
           <img
-            class="ring-1 ring-gray-400 rounded-lg w-full h-full object-cover object-center"
+            class="rounded-lg w-full h-full object-cover object-center"
             :src="post?.image"
             :alt="post?.title"
           />
@@ -37,7 +37,7 @@
           {{ post?.title }}
         </h1>
 
-        <p class="text-gray-500 text-center max-w-2xl mx-auto">
+        <p class="text-muted-color text-center max-w-2xl mx-auto">
           {{ post?.description }}
         </p>
 
@@ -49,7 +49,7 @@
               shape="circle"
             />
 
-            <p class="font-medium text-sm text-gray-900">{{ post?.author }}</p>
+            <p class="font-medium text-sm">{{ post?.author }}</p>
           </div>
         </div>
       </div>
