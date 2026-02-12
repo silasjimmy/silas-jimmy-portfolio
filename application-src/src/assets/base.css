@@ -7,20 +7,20 @@
 
   /* Custom variables */
   --ui-container: 56rem;
-  --ui-header-height: calc(.25rem * 16);
+  --ui-header-height: calc(0.25rem * 16);
+  --carousel-image-width: calc(calc(var(--ui-header-height) - 128px) / 3);
 
   /* Animations */
-  /* --animate-scroll-x-left: scroll-x-left 6s linear infinite; */
+  --animate-scroll-x-left: scroll-x-left 16s linear infinite;
 
-  /* @keyframes scroll-x-left {
+  @keyframes scroll-x-left {
     0% {
-      transform: translate3d(0, 0, 0);
+      transform: translateX(0);
     }
-    100% { */
-      /* Translate by -50% because content is doubled */
-      /* transform: translate3d(-50%, 0, 0);
+    100% {
+      transform: translateX(-100%);
     }
-  } */
+  }
 }
 
 @custom-variant dark (&:where(.dark, .dark *));

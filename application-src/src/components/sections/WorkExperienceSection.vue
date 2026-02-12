@@ -9,7 +9,7 @@
         <div class="flex flex-col mb-3 gap-2 text-nowrap sm:flex-row sm:items-center">
           <p class="text-sm">2025 - Present</p>
 
-          <div class="border-solid border-t w-full hidden border-gray-200 sm:block"></div>
+          <div class="border-solid border-t w-full hidden border-zinc-200 dark:border-zinc-500 sm:block"></div>
 
           <a
             href="#"
@@ -22,7 +22,7 @@
         <div class="flex flex-col mb-3 gap-2 text-nowrap sm:flex-row sm:items-center">
           <p class="text-sm">2024 - 2024</p>
 
-          <div class="border-solid border-t w-full hidden border-gray-200 sm:block"></div>
+          <div class="border-solid border-t w-full hidden border-zinc-200 dark:border-zinc-500 sm:block"></div>
 
           <a
             href="#"
@@ -35,7 +35,7 @@
         <div class="flex flex-col mb-3 gap-2 text-nowrap sm:flex-row sm:items-center">
           <p class="text-sm">2023 - 2024</p>
 
-          <div class="border-solid border-t w-full hidden border-gray-200 sm:block"></div>
+          <div class="border-solid border-t w-full hidden border-zinc-200 dark:border-zinc-500 sm:block"></div>
 
           <a
             href="#"
