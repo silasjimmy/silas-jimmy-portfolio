@@ -5,16 +5,17 @@
     >
       <div class="relative">
         <ul class="isolate min-w-0 flex items-center">
-          <!-- <li class="min-w-0 py-2">
+          <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md transition-colors px-2 py-1"
               to="/"
+              :class="activeLink('home')"
             >
               Home
             </router-link>
           </li>
 
-          <li class="min-w-0 py-2">
+          <!-- <li class="min-w-0 py-2">
             <router-link
               class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-gray-900 transition-colors px-2 py-1"
               to="/blog"
@@ -43,7 +44,7 @@
 
           <li class="min-w-0 py-2">
             <router-link
-              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md hover:text-zinc-500 transition-colors px-2 py-1"
+              class="relative w-full flex items-center gap-1.5 font-medium text-sm before:absolute before:z-[-1] before:rounded-md transition-colors px-2 py-1"
               :class="activeLink('blog')"
               to="/blog"
             >
@@ -53,15 +54,32 @@
         </ul>
       </div>
 
-      <!-- <Button rounded size="small" severity="contrast" variant="text" icon="pi pi-sun"></Button> -->
+      <Button
+        rounded
+        size="small"
+        severity="contrast"
+        variant="text"
+        :icon="themeIcon"
+        @click="toggleTheme"
+      ></Button>
     </nav>
   </div>
 </template>
 
 <script setup lang="ts">
+import { onMounted, ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
+const themeIcon = ref('')
 const route = useRoute()
+
+/**
+ * Toggle theme when the component is mounted.
+ */
+onMounted(() => {
+  // Initialize the theme icon in the theme toggole button
+  themeIcon.value = localStorage.silasjimmydev === 'light' ? 'pi pi-moon' : 'pi pi-sun'
+})
 
 /**
  * Sets the styles for the active navbar link
@@ -69,7 +87,21 @@ const route = useRoute()
  * @returns (string) active navbar link styles
  */
 function activeLink(name: string) {
-  return name === route.name ? "text-zinc-400" : ""
+  return name === route.name ? 'text-green-400 font-bold!' : 'text-green-600'
+}
+
+/**
+ * Toogles the site's theme
+ */
+function toggleTheme() {
+  // Update the local storage variable `silasjimmydev`
+  localStorage.setItem('silasjimmydev', localStorage.silasjimmydev === 'light' ? 'dark' : 'light')
+
+  // Update button icon
+  themeIcon.value = localStorage.silasjimmydev === 'light' ? 'pi pi-moon' : 'pi pi-sun'
+
+  // Set the site's theme depending on the `silasjimmydev` variable
+  document.documentElement.classList.toggle('dark', localStorage.silasjimmydev === 'dark')
 }
 </script>
 
