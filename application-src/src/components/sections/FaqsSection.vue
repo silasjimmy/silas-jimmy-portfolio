@@ -14,19 +14,19 @@
       <div class="flexflex-col w-full gap-4 items-center">
         <Tabs value="services">
           <TabList>
-            <Tab value="services" class="grow max-w-1/3">
+            <Tab value="services" class="grow max-w-1/3 border-b-2!">
               <div class="truncate">
                 <span class="text-sm font-medium">Services</span>
               </div>
             </Tab>
 
-            <Tab value="projects" class="grow max-w-1/3">
+            <Tab value="projects" class="grow max-w-1/3 border-b-2!">
               <div class="truncate">
                 <span class="text-sm font-medium">Projects</span>
               </div>
             </Tab>
 
-            <Tab value="contact" class="grow max-w-1/3">
+            <Tab value="contact" class="grow max-w-1/3 border-b-2!">
               <div class="truncate">
                 <span class="text-sm font-medium">Contact</span>
               </div>

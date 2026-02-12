@@ -80,5 +80,35 @@ export const appPreset = definePreset(Lara, {
         },
       },
     },
+    tabs: {
+      tablist: {
+        background: 'transparent',
+      },
+      tab: {
+        borderWidth: '0',
+        hoverColor: '{green.500}',
+      },
+      tabpanel: {
+        padding: '16px 0 0 0',
+        background: 'transparent',
+      },
+      colorScheme: {
+        light: {
+          tab: {
+            background: 'transparent',
+            color: '{zinc.800}',
+            hoverBackground: 'transparent',
+          },
+        },
+        dark: {
+          tab: {
+            background: 'transparent',
+            color: '{zinc.200}',
+            hoverBackground: 'transparent',
+            activeBackground: 'transparent',
+          },
+        },
+      },
+    },
   },
 })
