@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full border-zinc-400 max-w-(--ui-container) mx-auto pt-10 lg:border-x">
+  <div class="w-full border-zinc-200 dark:border-zinc-500 max-w-(--ui-container) mx-auto pt-10 lg:border-x">
     <navbar-section></navbar-section>
 
     <main class="relative min-h-[calc(100vh-var(--ui-header-height))]">

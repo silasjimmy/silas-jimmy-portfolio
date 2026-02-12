@@ -1,17 +1,19 @@
 <template>
   <div class="pt-18 sm:pt-24 lg:pt-32">
-    <div
-      class="w-full mx-auto px-4 flex flex-col gap-16 mb-16 sm:px-6 lg:px-8"
-    >
+    <div class="w-full mx-auto px-4 flex flex-col gap-16 mb-16 sm:px-6 lg:px-8">
       <div class="text-center">
         <!-- Section header -->
         <div>
           <div class="mb-4 flex items-center justify-center">
-            <Avatar
-              shape="circle"
-              image="/images/silas-jimmy-headshot.jpg"
-              class="ring-2 ring-gray-200 p-0.5 h-14 w-14 md:h-18 md:w-18"
-            />
+            <Image unstyled class="rounded-full ring-2 ring-gray-200 p-0.5">
+              <template #image>
+                <img
+                  class="rounded-full size-20"
+                  src="/images/silas-jimmy-headshot.jpg"
+                  alt="Silas Jimmy Headshot"
+                />
+              </template>
+            </Image>
           </div>
 
           <h1
@@ -39,7 +41,7 @@
               <Button
                 as="router-link"
                 variant="text"
-                to="/blog"
+                to="/"
                 class="rouded-md inline-flex items-center font-medium text-sm text-green-500 gap-2"
               >
                 <div class="relative flex items-center justify-center h-2 w-2">
@@ -55,24 +57,33 @@
 
             <div class="inline-flex gap-x-2 mt-2">
               <Button
+                rounded
                 as="a"
-                href="#"
+                href="https://www.linkedin.com/in/silasjimmy/"
+                target="_blank"
+                rel="noopener"
                 icon="pi pi-linkedin"
                 variant="text"
                 severity="contrast"
               ></Button>
 
               <Button
+                rounded
                 as="a"
-                href="#"
+                href="https://x.com/_silasjimmy_"
+                target="_blank"
+                rel="noopener"
                 icon="pi pi-twitter"
                 variant="text"
                 severity="contrast"
               ></Button>
 
               <Button
+                rounded
                 as="a"
-                href="#"
+                href="https://github.com/silasjimmy"
+                target="_blank"
+                rel="noopener"
                 icon="pi pi-github"
                 variant="text"
                 severity="contrast"

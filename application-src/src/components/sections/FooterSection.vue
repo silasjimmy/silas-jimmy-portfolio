@@ -3,11 +3,12 @@
     <div
       class="w-full max-w-(--ui-container) mx-auto px-4 py-8 sm:px-6 lg:px-8 lg:py-4 lg:flex lg:items-center lg:justify-between lg:gap-x-3"
     >
-      <div
-        class="flex items-center justify-center gap-x-1.5 lg:flex-1 lg:justify-end lg:order-3"
-      >
+      <div class="flex items-center justify-center gap-x-1.5 lg:flex-1 lg:justify-end lg:order-3">
         <Button
           rounded
+          href="https://www.linkedin.com/in/silasjimmy/"
+          target="_blank"
+          rel="noopener"
           size="small"
           severity="contrast"
           variant="text"
@@ -16,6 +17,9 @@
 
         <Button
           rounded
+          href="https://x.com/_silasjimmy_"
+          target="_blank"
+          rel="noopener"
           size="small"
           severity="contrast"
           variant="text"
@@ -24,6 +28,9 @@
 
         <Button
           rounded
+          href="https://github.com/silasjimmy"
+          target="_blank"
+          rel="noopener"
           size="small"
           severity="contrast"
           variant="text"

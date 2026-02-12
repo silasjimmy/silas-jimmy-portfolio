@@ -28,6 +28,7 @@ declare module 'vue' {
     Gallery: typeof import('./src/components/Gallery.vue')['default']
     GetInTouchSection: typeof import('./src/components/GetInTouchSection.vue')['default']
     HeroSection: typeof import('./src/components/sections/HeroSection.vue')['default']
+    Image: typeof import('primevue/image')['default']
     LatestArticleCard: typeof import('./src/components/cards/LatestArticleCard.vue')['default']
     LatestArticlesSection: typeof import('./src/components/sections/LatestArticlesSection.vue')['default']
     NavbarSection: typeof import('./src/components/sections/NavbarSection.vue')['default']

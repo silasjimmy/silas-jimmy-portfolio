@@ -28,6 +28,11 @@ const router = createRouter({
     //   name: 'volunteer',
     //   component: () => import('../views/VolunteerView.vue'),
     // },
+    // {
+    //   path: '/contact',
+    //   name: 'contact',
+    //   component: () => import('../views/VolunteerView.vue'),
+    // },
     {
       path: '/blog',
       name: 'blog',

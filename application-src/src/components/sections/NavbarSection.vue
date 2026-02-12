@@ -87,7 +87,7 @@ onMounted(() => {
  * @returns (string) active navbar link styles
  */
 function activeLink(name: string) {
-  return name === route.name ? 'text-green-400 font-bold!' : 'text-green-600'
+  return name === route.name ? 'text-zinc-950 dark:text-zinc-100' : 'text-zinc-500 dark:text-zinc-400'
 }
 
 /**

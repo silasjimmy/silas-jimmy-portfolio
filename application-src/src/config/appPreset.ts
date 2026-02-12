@@ -112,4 +112,24 @@ export const appPreset = definePreset(Lara, {
       950: '{green.950}',
     },
   },
+
+  /**
+   * Defines the custom configurations for components
+   */
+  components: {
+    accordion: {
+      colorScheme: {
+        light: {
+          content: {
+            background: '{zinc.100}',
+          },
+        },
+        dark: {
+          content: {
+            background: '{zinc.900}',
+          },
+        },
+      },
+    },
+  },
 })
