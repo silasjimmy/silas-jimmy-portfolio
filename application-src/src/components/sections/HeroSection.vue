@@ -5,7 +5,7 @@
         <!-- Section header -->
         <div>
           <div class="mb-4 flex items-center justify-center">
-            <Image unstyled class="rounded-full ring-2 ring-gray-200 p-0.5">
+            <Image unstyled class="rounded-full ring-1 ring-zinc-200 p-0.5 dark:ring-zinc-500">
               <template #image>
                 <img
                   class="rounded-full size-20"

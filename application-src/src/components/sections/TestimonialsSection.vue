@@ -2,16 +2,17 @@
   <div>
     <Carousel
       circular
+      class="bg-zinc-50 dark:bg-zinc-800"
       :value="testimonials"
       :showNavigators="false"
-      :showIndicators="false"
+      :showIndicators="true"
       :numVisible="1"
       :numScroll="1"
       :autoplayInterval="3000"
     >
       <template #item="slotProps">
         <div
-          class="w-full bg-zinc-100 dark:bg-zinc-900 mx-auto flex flex-col lg:grid px-6 py-12 sm:px-12 lg:px-16 gap-8 sm:py-12 lg:py-12 sm:gap-8"
+          class="w-full mx-auto flex flex-col lg:grid px-6 py-12 sm:px-12 lg:px-16 gap-8 sm:py-12 lg:py-12 sm:gap-8"
         >
           <div>
             <p class="text-base text-center text-zinc-950 dark:text-zinc-50 text-balance">

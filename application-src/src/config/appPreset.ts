@@ -110,5 +110,26 @@ export const appPreset = definePreset(Lara, {
         },
       },
     },
+    carousel: {
+      indicator: {
+        width: '30px',
+        height: '6px',
+        borderRadius: '12px',
+      },
+      colorScheme: {
+        light: {
+          indicator: {
+            background: '{zinc.200}',
+            hoverBackground: '{zinc.300}',
+          },
+        },
+        dark: {
+          indicator: {
+            background: '{zinc.600}',
+            hoverBackground: '{zinc.500}',
+          },
+        },
+      },
+    },
   },
 })
