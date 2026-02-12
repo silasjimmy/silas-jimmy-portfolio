@@ -38,7 +38,7 @@
               <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
                 <AccordionPanel value="0">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                    <span class="text-sm">What services do you offer?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
@@ -52,11 +52,11 @@
 
                 <AccordionPanel value="1">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                    <span class="text-sm">What services do you offer?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
-                    <p class="m-0">
+                    <p class="m-0 text-sm">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
                       perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
                       neque quo a, ea minus quis illo distinctio doloribus, sit quia.
@@ -66,11 +66,11 @@
 
                 <AccordionPanel value="2">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                    <span class="text-sm">What services do you offer?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
-                    <p class="m-0">
+                    <p class="m-0 text-sm">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
                       perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
                       neque quo a, ea minus quis illo distinctio doloribus, sit quia.
@@ -84,7 +84,7 @@
               <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
                 <AccordionPanel value="0">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                    <span class="text-sm">What services do you offer?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
@@ -98,11 +98,11 @@
 
                 <AccordionPanel value="1">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                    <span class="text-sm">What services do you offer?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
-                    <p class="m-0">
+                    <p class="m-0 text-sm">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
                       perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
                       neque quo a, ea minus quis illo distinctio doloribus, sit quia.
@@ -112,11 +112,11 @@
 
                 <AccordionPanel value="2">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">What services do you offer?</span>
+                    <span class="text-sm">What services do you offer?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
-                    <p class="m-0">
+                    <p class="m-0 text-sm">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
                       perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
                       neque quo a, ea minus quis illo distinctio doloribus, sit quia.
@@ -130,7 +130,7 @@
               <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
                 <AccordionPanel value="0">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">Email Address</span>
+                    <span class="text-sm">Email Address</span>
                   </AccordionHeader>
 
                   <AccordionContent>
@@ -140,7 +140,7 @@
 
                 <AccordionPanel value="1">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">Phone number</span>
+                    <span class="text-sm">Phone number</span>
                   </AccordionHeader>
 
                   <AccordionContent>
@@ -150,7 +150,7 @@
 
                 <AccordionPanel value="2">
                   <AccordionHeader>
-                    <span class="text-sm sm:text-base">Location</span>
+                    <span class="text-sm">Location</span>
                   </AccordionHeader>
 
                   <AccordionContent>
