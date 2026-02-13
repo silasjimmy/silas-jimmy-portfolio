@@ -43,37 +43,42 @@
 
                   <AccordionContent>
                     <p class="m-0 text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
-                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
-                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                      I provide end-to-end services for building and maintaining modern frontend and
+                      backend applications in the cloud, with a strong focus on scalability,
+                      performance, and user experience. My offerings cover the full lifecycle of
+                      application development, using technolgy tools suited to your needs.
                     </p>
                   </AccordionContent>
                 </AccordionPanel>
 
                 <AccordionPanel value="1">
                   <AccordionHeader>
-                    <span class="text-sm">What services do you offer?</span>
+                    <span class="text-sm">What is your design process like?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
                     <p class="m-0 text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
-                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
-                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                      My design process is structured, collaborative, and iterative - built around
+                      agile principles to ensure that products evolve smoothly from concept to
+                      deployment while staying aligned with client goals and user needs. My process
+                      typically involves stages like Discovery & Research, Ideation & Wireframing,
+                      Prototyping & Design, among others.
                     </p>
                   </AccordionContent>
                 </AccordionPanel>
 
                 <AccordionPanel value="2">
                   <AccordionHeader>
-                    <span class="text-sm">What services do you offer?</span>
+                    <span class="text-sm">Do you work with startups?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
                     <p class="m-0 text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
-                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
-                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                      Absolutely! I enjoy working with startups to help shape their product vision
+                      and create user-friendly interfaces from the ground up. I can adapt my process
+                      to fit the fast-paced startup environment. I understand the unique challenges
+                      startups face and can provide flexible solutions to help them succeed. Whether
+                      it's building an MVP, iterating on designs, or scaling the product,
                     </p>
                   </AccordionContent>
                 </AccordionPanel>
@@ -84,42 +89,58 @@
               <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
                 <AccordionPanel value="0">
                   <AccordionHeader>
-                    <span class="text-sm">What services do you offer?</span>
+                    <span class="text-sm">How much does a project typically costs?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
                     <p class="m-0 text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
-                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
-                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                      The cost of a project depends on its scope, complexity, and timeline. For a
+                      basic website, costs typically range from $80 to $150. More complex projects
+                      like web applications or custom software can range from $250 to $800 or more.
+                      I provide detailed quotes after understanding your specific requirements.
                     </p>
                   </AccordionContent>
                 </AccordionPanel>
 
                 <AccordionPanel value="1">
                   <AccordionHeader>
-                    <span class="text-sm">What services do you offer?</span>
+                    <span class="text-sm">What are your payment terms?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
                     <p class="m-0 text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
-                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
-                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                      I generally require a 35% deposit to schedule the project and begin work, with
+                      the remaining 65% due upon successfull project completion and delivery.
+                      Payment details will be provided.
                     </p>
                   </AccordionContent>
                 </AccordionPanel>
 
                 <AccordionPanel value="2">
                   <AccordionHeader>
-                    <span class="text-sm">What services do you offer?</span>
+                    <span class="text-sm">How long does a typical project take?</span>
                   </AccordionHeader>
 
                   <AccordionContent>
                     <p class="m-0 text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id omnis dolore
-                      perspiciatis, delectus laudantium officia quaerat iusto porro perferendis
-                      neque quo a, ea minus quis illo distinctio doloribus, sit quia.
+                      The timeline for a typical project varies depending on its scope and
+                      complexity. A basic website can take 2-4 weeks, while more complex web
+                      applications or custom software projects may take 2-6 months. I provide a
+                      detailed timeline during the initial consultation phase.
+                    </p>
+                  </AccordionContent>
+                </AccordionPanel>
+
+                <AccordionPanel value="3">
+                  <AccordionHeader>
+                    <span class="text-sm">Do you offer retainers or ongoing support??</span>
+                  </AccordionHeader>
+
+                  <AccordionContent>
+                    <p class="m-0 text-sm">
+                      Yes, I offer retainer packages and ongoing support for clients who need
+                      continuous maintenance, updates, or enhancements to their existing projects. I
+                      provide flexible retainer options tailored to your needs.
                     </p>
                   </AccordionContent>
                 </AccordionPanel>
@@ -130,7 +151,11 @@
               <Accordion value="-1" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
                 <AccordionPanel value="0">
                   <AccordionHeader>
-                    <span class="text-sm">Email Address</span>
+                    <div class="flex items-center gap-x-3">
+                      <i class="pi pi-envelope" style="font-size: 14px"></i>
+
+                      <span class="text-sm">Email Address</span>
+                    </div>
                   </AccordionHeader>
 
                   <AccordionContent>
@@ -140,7 +165,11 @@
 
                 <AccordionPanel value="1">
                   <AccordionHeader>
-                    <span class="text-sm">Phone number</span>
+                    <div class="flex items-center gap-x-3">
+                      <i class="pi pi-phone" style="font-size: 14px"></i>
+
+                      <span class="text-sm">Phone Number</span>
+                    </div>
                   </AccordionHeader>
 
                   <AccordionContent>
@@ -150,7 +179,11 @@
 
                 <AccordionPanel value="2">
                   <AccordionHeader>
-                    <span class="text-sm">Location</span>
+                    <div class="flex items-center gap-x-3">
+                      <i class="pi pi-map-marker" style="font-size: 14px"></i>
+
+                      <span class="text-sm">Location</span>
+                    </div>
                   </AccordionHeader>
 
                   <AccordionContent>
